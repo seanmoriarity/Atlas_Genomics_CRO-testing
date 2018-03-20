@@ -1,0 +1,3000 @@
+
+@font-face {
+  font-family: "HelveticaNeueLTStd-Roman";
+  src: url('../fonts/HelveticaNeueLTStd-Roman.otf') format("opentype");
+}
+@font-face {
+  font-family: "HelveticaNeueLTStd-Bd";
+  src: url('../fonts/HelveticaNeueLTStd-Bd.otf') format("opentype");
+}
+@font-face {
+  font-family: "HelveticaNeueLTStd-MdCn";
+  src: url('../fonts/HelveticaNeueLTStd-MdCn.otf') format("opentype");
+}
+@font-face {
+  font-family: "HelveticaNeueLTStd-Lt";
+  src: url('../fonts/HelveticaNeueLTStd-Lt.otf') format("opentype");
+}
+
+.bp1-index {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 2632px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background          : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp1-index .bp1-footer-hd {
+  background          : rgba(255, 255, 255, 0.0);
+  bottom              : 0px;
+  height              : 120px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-index .bp1-footer-hd .bp1-background {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-index .bp1-footer-hd .bp1-a2018-atlas-genomic {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 51.67%;
+  height              : 20.00%;
+  width               : 19.79%;
+  position            : absolute;
+  margin              : 0;
+  left                : 244px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp1-index .bp1-footer-hd .bp1-links {
+  /* Flexbox */
+  display: flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : flex-end;
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 30px;
+  height              : 20.00%;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 244px;
+}
+.bp1-index .bp1-footer-hd .bp1-links .bp1-careers {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+  text-decoration     : underline;
+}
+.bp1-index .bp1-hero-frame {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 1441px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp1-index .bp1-hero-frame-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 120px;
+  align-items         : center;
+  height              : 552px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-index .bp1-hero-frame .bp1-rectangle {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 552px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-index .bp1-hero-frame .bp1-hero-photo {
+  background          : rgba(255, 255, 255, 0.0);
+  right               : 0px;
+  top                 : 0px;
+  height              : 520px;
+  width               : 868px;
+  position            : absolute;
+  margin              : 0;
+}
+.bp1-index .bp1-hero-frame .bp1-text-area {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 77px;
+  height              : 256px;
+  width               : 460px;
+  position            : absolute;
+  margin              : 0;
+  left                : 80px;
+}
+.bp1-index .bp1-hero-frame .bp1-text-area .bp1-hero-link {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 238px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  font-family         : "HelveticaNeueLTStd-Bd", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(61, 61, 61, 1.0);
+  text-align          : left;
+  line-height         : 19.0px;
+}
+.bp1-index .bp1-hero-frame .bp1-text-area .bp1-hero-text {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 96px;
+  height              : auto;
+  width               : 462px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp1-index .bp1-hero-frame .bp1-text-area .bp1-hero-headline {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 460px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  font-family         : "HelveticaNeueLTStd-MdCn", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : left;
+  line-height         : 43.0px;
+}
+.bp1-index .bp1-interview-frame {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 792px;
+  height              : 1160px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-index .bp1-interview-frame .bp1-interview-frame-image-right {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 100%;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp1-index .bp1-interview-frame .bp1-interview-frame-image-right-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-index .bp1-interview-frame .bp1-interview-frame-image-right .bp1-interview-background {
+  background          : rgba(20, 20, 20, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-index .bp1-interview-frame .bp1-interview-frame-image-right .bp1-interview-related-products {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 1280px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp1-index .bp1-interview-frame .bp1-interview-frame-image-right .bp1-interview-related-products-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 37.93%;
+  align-items         : center;
+  height              : 41.38%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-index .bp1-interview-frame .bp1-interview-frame-image-right .bp1-interview-related-products .bp1-procartaplex-frame {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 48.75%;
+  position            : absolute;
+  margin              : 0;
+  left                : 51.25%;
+}
+.bp1-index .bp1-interview-frame .bp1-interview-frame-image-right .bp1-interview-related-products .bp1-procartaplex-frame .bp1-view1 {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-index .bp1-interview-frame .bp1-interview-frame-image-right .bp1-interview-related-products .bp1-procartaplex-frame .bp1-luminex {
+  background          : rgba(222, 222, 222, 1.0);
+  top                 : 16.67%;
+  height              : 41.67%;
+  width               : 37.82%;
+  position            : absolute;
+  margin              : 0;
+  left                : 31.09%;
+  overflow            : hidden;
+}
+.bp1-index .bp1-interview-frame .bp1-interview-frame-image-right .bp1-interview-related-products .bp1-procartaplex-frame .bp1-luminex .bp1-mask {
+  background          : rgba(222, 222, 222, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-index .bp1-interview-frame .bp1-interview-frame-image-right .bp1-interview-related-products .bp1-procartaplex-frame .bp1-luminex .bp1-a1505997812343 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-index .bp1-interview-frame .bp1-interview-frame-image-right .bp1-interview-related-products .bp1-procartaplex-frame .bp1-procartaplex-immuno {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 62.92%;
+  height              : 20.00%;
+  width               : 78.85%;
+  position            : absolute;
+  margin              : 0;
+  left                : 10.58%;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(62, 62, 62, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp1-index .bp1-interview-frame .bp1-interview-frame-image-right .bp1-interview-related-products .bp1-procartaplex-frame .bp1-procartaplex-immune {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 4.38%;
+  height              : 5.00%;
+  width               : 73.72%;
+  position            : absolute;
+  margin              : 0;
+  left                : 13.14%;
+  font-family         : "HelveticaNeueLTStd-Bd", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(63, 63, 63, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.bp1-index .bp1-interview-frame .bp1-interview-frame-image-right .bp1-interview-related-products .bp1-immuno-oncology-frame {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 48.75%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-index .bp1-interview-frame .bp1-interview-frame-image-right .bp1-interview-related-products .bp1-immuno-oncology-frame .bp1-view2 {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-index .bp1-interview-frame .bp1-interview-frame-image-right .bp1-interview-related-products .bp1-immuno-oncology-frame .bp1-checkpoint-panel {
+  background          : rgba(222, 222, 222, 1.0);
+  top                 : 16.67%;
+  height              : 41.67%;
+  width               : 47.44%;
+  position            : absolute;
+  margin              : 0;
+  left                : 26.28%;
+  overflow            : hidden;
+}
+.bp1-index .bp1-interview-frame .bp1-interview-frame-image-right .bp1-interview-related-products .bp1-immuno-oncology-frame .bp1-checkpoint-panel .bp1-view3 {
+  background          : rgba(222, 222, 222, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-index .bp1-interview-frame .bp1-interview-frame-image-right .bp1-interview-related-products .bp1-immuno-oncology-frame .bp1-checkpoint-panel .bp1-e-px11012170901650x600jpg650 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 140.50%;
+  width               : 102.70%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-index .bp1-interview-frame .bp1-interview-frame-image-right .bp1-interview-related-products .bp1-immuno-oncology-frame .bp1-the-procartaplex-imm {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 62.92%;
+  height              : 30.00%;
+  width               : 78.85%;
+  position            : absolute;
+  margin              : 0;
+  left                : 10.58%;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(62, 62, 62, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp1-index .bp1-interview-frame .bp1-interview-frame-image-right .bp1-interview-related-products .bp1-immuno-oncology-frame .bp1-procartaplex-human-i {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 4.38%;
+  height              : 5.00%;
+  width               : 81.09%;
+  position            : absolute;
+  margin              : 0;
+  left                : 9.46%;
+  font-family         : "HelveticaNeueLTStd-Bd", Helvetica, Arial, serif;
+  font-size           : 18.0px;
+  color               : rgba(63, 63, 63, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.bp1-index .bp1-interview-frame .bp1-interview-frame-image-right .bp1-stacked-group {
+  /* Flexbox */
+  display: flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : flex-start;
+  background          : rgba(255, 255, 255, 0.0);
+  width               : auto;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp1-index .bp1-interview-frame .bp1-interview-frame-image-right .bp1-stacked-group-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 7.07%;
+  align-items         : center;
+  height              : 24.05%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-index .bp1-interview-frame .bp1-interview-frame-image-right .bp1-stacked-group .bp1-text-block {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : 279px;
+  margin              : 0;
+  width               : 604px;
+}
+.bp1-index .bp1-interview-frame .bp1-interview-frame-image-right .bp1-stacked-group .bp1-text-block .bp1-label1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 93.55%;
+  height              : 5.73%;
+  width               : 56.13%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Bd", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 19.0px;
+}
+.bp1-index .bp1-interview-frame .bp1-interview-frame-image-right .bp1-stacked-group .bp1-text-block .bp1-thermo-fisher-scient {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 34.41%;
+  height              : 53.05%;
+  width               : 100.18%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp1-index .bp1-interview-frame .bp1-interview-frame-image-right .bp1-stacked-group .bp1-text-block .bp1-head-of-society-for {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 28.67%;
+  width               : 99.84%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-MdCn", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 43.0px;
+}
+.bp1-index .bp1-interview-frame .bp1-interview-frame-image-right .bp1-stacked-group .bp1-nice-image {
+  background          : rgba(107, 107, 107, 1.0);
+  position            : relative;
+  height              : 240px;
+  margin              : 0 0 0 32px;
+  width               : 604px;
+  overflow            : hidden;
+}
+.bp1-index .bp1-interview-frame .bp1-interview-frame-image-right .bp1-stacked-group .bp1-nice-image .bp1-view4 {
+  background          : rgba(107, 107, 107, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-index .bp1-interview-frame .bp1-interview-frame-image-right .bp1-stacked-group .bp1-nice-image .bp1-a1502379841263 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 104.17%;
+  width               : 113.74%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-index .bp1-transition-frame {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 672px;
+  height              : 120px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-index .bp1-become-our-partner-frame {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 1280px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp1-index .bp1-become-our-partner-frame-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 1992px;
+  align-items         : center;
+  height              : 360px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-index .bp1-become-our-partner-frame .bp1-laboratory-interior {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 360px;
+  width               : 788px;
+  position            : absolute;
+  margin              : 0;
+  left                : 492px;
+  overflow            : hidden;
+}
+.bp1-index .bp1-become-our-partner-frame .bp1-view5 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 45px;
+  height              : 192px;
+  width               : 460px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-index .bp1-become-our-partner-frame .bp1-view5 .bp1-label2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 174px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Bd", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(61, 61, 61, 1.0);
+  text-align          : left;
+  line-height         : 19.0px;
+}
+.bp1-index .bp1-become-our-partner-frame .bp1-view5 .bp1-consultation-text {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 56px;
+  height              : auto;
+  width               : 460px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp1-index .bp1-become-our-partner-frame .bp1-view5 .bp1-consultation-headline {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 460px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-MdCn", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : left;
+  line-height         : 43.0px;
+}
+.bp1-index .bp1-angled-transition-white {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 1832px;
+  height              : 120px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-index .bp1-navigation-header-desktop-hd {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 120px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-index .bp1-navigation-header-desktop-hd .bp1-navigation-background {
+  background          : rgba(20, 20, 20, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-index .bp1-navigation-header-desktop-hd .bp1-navigation-buttons {
+  /* Flexbox */
+  display: flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : center;
+  background          : rgba(255, 255, 255, 0.0);
+  right               : 80px;
+  top                 : 42.50%;
+  height              : 16.67%;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+}
+.bp1-index .bp1-navigation-header-desktop-hd .bp1-navigation-buttons .bp1-cro-services {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp1-index .bp1-navigation-header-desktop-hd .bp1-navigation-buttons .bp1-about-us {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 64px;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp1-index .bp1-navigation-header-desktop-hd .bp1-navigation-buttons .bp1-contact {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 64px;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp1-index .bp1-navigation-header-desktop-hd .bp1-atlas-logo {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 20.83%;
+  height              : 71px;
+  width               : 318px;
+  position            : absolute;
+  margin              : 0;
+  left                : 80px;
+}
+.bp1-index .bp1-navigation-header-desktop-hd .bp1-atlas-logo .bp1-atlas-logo-maximum-resolution-refined {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 71px;
+  width               : 318px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.bp2-screen4 {
+  width               : 100%;
+  min-width           : 1024px;
+  height              : 100vh;
+  min-height          : 2384px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background          : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp2-screen4 .bp2-footer-non-hd {
+  background          : rgba(255, 255, 255, 0.0);
+  bottom              : 0px;
+  height              : 120px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen4 .bp2-footer-non-hd .bp2-background {
+  background          : rgba(127, 127, 127, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen4 .bp2-footer-non-hd .bp2-a2018-atlas-genomic {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 53.33%;
+  height              : 20.00%;
+  width               : 27.83%;
+  position            : absolute;
+  margin              : 0;
+  left                : 156px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp2-screen4 .bp2-footer-non-hd .bp2-links {
+  /* Flexbox */
+  display: flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : flex-end;
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 32px;
+  height              : 20.00%;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 156px;
+}
+.bp2-screen4 .bp2-footer-non-hd .bp2-links .bp2-careers {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+  text-decoration     : underline;
+}
+.bp2-screen4 .bp2-become-our-partner-frame {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 960px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp2-screen4 .bp2-become-our-partner-frame-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 1784px;
+  align-items         : center;
+  height              : 352px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-screen4 .bp2-become-our-partner-frame .bp2-laboratory-interior {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 352px;
+  width               : 594px;
+  position            : absolute;
+  margin              : 0;
+  left                : 366px;
+  overflow            : hidden;
+}
+.bp2-screen4 .bp2-become-our-partner-frame .bp2-text-area {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 36px;
+  height              : 201px;
+  width               : 350px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen4 .bp2-become-our-partner-frame .bp2-text-area .bp2-action-link {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 177px;
+  height              : 24px;
+  width               : 350px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen4 .bp2-become-our-partner-frame .bp2-text-area .bp2-action-link .bp2-hero-link {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 350px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Bd", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(61, 61, 61, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp2-screen4 .bp2-become-our-partner-frame .bp2-text-area .bp2-consultation-text {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 41px;
+  height              : auto;
+  width               : 350px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp2-screen4 .bp2-become-our-partner-frame .bp2-text-area .bp2-consultation-headline {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 350px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-MdCn", Helvetica, Arial, serif;
+  font-size           : 28.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : left;
+  line-height         : 34.0px;
+}
+.bp2-screen4 .bp2-interview-frame {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 760px;
+  height              : 992px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen4 .bp2-interview-frame .bp2-interview-background {
+  background          : rgba(20, 20, 20, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen4 .bp2-interview-frame .bp2-interview-related-products {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 957px;
+  margin-right        : -0px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : 0px;
+  position            : relative;
+}
+.bp2-screen4 .bp2-interview-frame .bp2-interview-related-products-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 35.48%;
+  align-items         : center;
+  height              : 48.39%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-screen4 .bp2-interview-frame .bp2-interview-related-products .bp2-procartaplex-frame {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 49.32%;
+  position            : absolute;
+  margin              : 0;
+  left                : 50.68%;
+}
+.bp2-screen4 .bp2-interview-frame .bp2-interview-related-products .bp2-procartaplex-frame .bp2-view1 {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen4 .bp2-interview-frame .bp2-interview-related-products .bp2-procartaplex-frame .bp2-luminex {
+  background          : rgba(222, 222, 222, 1.0);
+  top                 : 11.25%;
+  height              : 41.67%;
+  width               : 236px;
+  position            : absolute;
+  margin              : 0;
+  left                : 25.00%;
+  overflow            : hidden;
+}
+.bp2-screen4 .bp2-interview-frame .bp2-interview-related-products .bp2-procartaplex-frame .bp2-luminex .bp2-mask {
+  background          : rgba(222, 222, 222, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen4 .bp2-interview-frame .bp2-interview-related-products .bp2-procartaplex-frame .bp2-luminex .bp2-a1505997812343 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen4 .bp2-interview-frame .bp2-interview-related-products .bp2-procartaplex-frame .bp2-procartaplex-immuno {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 56.25%;
+  height              : 25.00%;
+  width               : 92.83%;
+  position            : absolute;
+  margin              : 0;
+  left                : 3.18%;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(62, 62, 62, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp2-screen4 .bp2-interview-frame .bp2-interview-related-products .bp2-procartaplex-frame .bp2-procartaplex-immune {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2.92%;
+  height              : 5.00%;
+  width               : 92.83%;
+  position            : absolute;
+  margin              : 0;
+  left                : 3.18%;
+  font-family         : "HelveticaNeueLTStd-Bd", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(63, 63, 63, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.bp2-screen4 .bp2-interview-frame .bp2-interview-related-products .bp2-immuno-oncology-frame {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 49.22%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen4 .bp2-interview-frame .bp2-interview-related-products .bp2-immuno-oncology-frame .bp2-view2 {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen4 .bp2-interview-frame .bp2-interview-related-products .bp2-immuno-oncology-frame .bp2-checkpoint-product-image {
+  background          : rgba(222, 222, 222, 1.0);
+  top                 : 11.67%;
+  height              : 41.67%;
+  width               : 295px;
+  position            : absolute;
+  margin              : 0;
+  left                : 18.68%;
+  overflow            : hidden;
+}
+.bp2-screen4 .bp2-interview-frame .bp2-interview-related-products .bp2-immuno-oncology-frame .bp2-checkpoint-product-image .bp2-view3 {
+  background          : rgba(222, 222, 222, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen4 .bp2-interview-frame .bp2-interview-related-products .bp2-immuno-oncology-frame .bp2-checkpoint-product-image .bp2-e-px11012170901650x600jpg650 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 140.50%;
+  width               : 102.71%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen4 .bp2-interview-frame .bp2-interview-related-products .bp2-immuno-oncology-frame .bp2-the-procartaplex-imm {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 56.25%;
+  height              : 35.00%;
+  width               : 93.03%;
+  position            : absolute;
+  margin              : 0;
+  left                : 3.18%;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(62, 62, 62, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp2-screen4 .bp2-interview-frame .bp2-interview-related-products .bp2-immuno-oncology-frame .bp2-procartaplex-human-i {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2.92%;
+  height              : 5.00%;
+  width               : 93.03%;
+  position            : absolute;
+  margin              : 0;
+  left                : 3.18%;
+  font-family         : "HelveticaNeueLTStd-Bd", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(63, 63, 63, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.bp2-screen4 .bp2-interview-frame .bp2-centered-content {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 1024px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp2-screen4 .bp2-interview-frame .bp2-centered-content-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 32.26%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-screen4 .bp2-interview-frame .bp2-centered-content .bp2-rectangle {
+  background          : rgba(20, 20, 20, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen4 .bp2-interview-frame .bp2-centered-content .bp2-text-block {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 11.25%;
+  height              : 80.31%;
+  width               : 472px;
+  position            : absolute;
+  margin              : 0;
+  left                : 3.12%;
+}
+.bp2-screen4 .bp2-interview-frame .bp2-centered-content .bp2-text-block .bp2-label1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 93.00%;
+  height              : 6.23%;
+  width               : 71.70%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Bd", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 19.0px;
+}
+.bp2-screen4 .bp2-interview-frame .bp2-centered-content .bp2-text-block .bp2-thermo-fisher-scient {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 28.79%;
+  height              : 58.75%;
+  width               : 100.33%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp2-screen4 .bp2-interview-frame .bp2-centered-content .bp2-text-block .bp2-head-of-society-for {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24.90%;
+  width               : 99.90%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-MdCn", Helvetica, Arial, serif;
+  font-size           : 28.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 34.0px;
+}
+.bp2-screen4 .bp2-interview-frame .bp2-centered-content .bp2-nice-image {
+  background          : rgba(107, 107, 107, 1.0);
+  right               : 0px;
+  top                 : 10.00%;
+  height              : 70.00%;
+  width               : 504px;
+  position            : absolute;
+  margin              : 0;
+  overflow            : hidden;
+}
+.bp2-screen4 .bp2-interview-frame .bp2-centered-content .bp2-nice-image .bp2-view4 {
+  background          : rgba(107, 107, 107, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen4 .bp2-interview-frame .bp2-centered-content .bp2-nice-image .bp2-a1502379841263 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 111.61%;
+  width               : 148.81%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen4 .bp2-angled-transition-white {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 1656px;
+  height              : 96px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen4 .bp2-hero-frame {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 102px;
+  height              : 658px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen4 .bp2-hero-frame .bp2-hero-background {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen4 .bp2-hero-frame .bp2-hero-photo {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 74.92%;
+  width               : 858px;
+  position            : absolute;
+  margin              : 0;
+  left                : 398px;
+}
+.bp2-screen4 .bp2-hero-frame .bp2-view5 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 13.07%;
+  height              : 39.06%;
+  width               : 350px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+}
+.bp2-screen4 .bp2-hero-frame .bp2-view5 .bp2-link-desktop-dark {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 93.00%;
+  height              : 6.23%;
+  width               : 79.71%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.29%;
+}
+.bp2-screen4 .bp2-hero-frame .bp2-view5 .bp2-link-desktop-dark .bp2-label2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100.72%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Bd", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(61, 61, 61, 1.0);
+  text-align          : left;
+  line-height         : 19.0px;
+}
+.bp2-screen4 .bp2-hero-frame .bp2-view5 .bp2-hero-text {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 28.79%;
+  height              : 56.81%;
+  width               : 100.57%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp2-screen4 .bp2-hero-frame .bp2-view5 .bp2-hero-headline {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 24.90%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.29%;
+  font-family         : "HelveticaNeueLTStd-MdCn", Helvetica, Arial, serif;
+  font-size           : 28.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : left;
+  line-height         : 34.0px;
+}
+.bp2-screen4 .bp2-transition-frame {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 664px;
+  height              : 96px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen4 .bp2-navigation-header-dektop-non-hd {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 102px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen4 .bp2-navigation-header-dektop-non-hd .bp2-navigation-background {
+  background          : rgba(20, 20, 20, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen4 .bp2-navigation-header-dektop-non-hd .bp2-navigation-buttons {
+  /* Flexbox */
+  display: flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : center;
+  background          : rgba(255, 255, 255, 0.0);
+  right               : 32px;
+  top                 : 41.18%;
+  height              : 19.61%;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+}
+.bp2-screen4 .bp2-navigation-header-dektop-non-hd .bp2-navigation-buttons .bp2-cro-services {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp2-screen4 .bp2-navigation-header-dektop-non-hd .bp2-navigation-buttons .bp2-about-us {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 64px;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp2-screen4 .bp2-navigation-header-dektop-non-hd .bp2-navigation-buttons .bp2-contact {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 64px;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp2-screen4 .bp2-navigation-header-dektop-non-hd .bp2-atlas-logo {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 15.69%;
+  height              : 71px;
+  width               : 318px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+}
+.bp2-screen4 .bp2-navigation-header-dektop-non-hd .bp2-atlas-logo .bp2-atlas-logo-maximum-resolution-refined {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 71px;
+  width               : 318px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.bp3-screen5 {
+  width               : 100%;
+  min-width           : 768px;
+  height              : 100vh;
+  min-height          : 1975px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background          : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp3-screen5 .bp3-footer-tablet {
+  background          : rgba(255, 255, 255, 0.0);
+  bottom              : 0px;
+  height              : 96px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen5 .bp3-footer-tablet .bp3-background {
+  background          : rgba(127, 127, 127, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen5 .bp3-footer-tablet .bp3-a2018-atlas-genomic {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 54.17%;
+  height              : 25.00%;
+  width               : 37.11%;
+  position            : absolute;
+  margin              : 0;
+  left                : 110px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp3-screen5 .bp3-footer-tablet .bp3-links {
+  /* Flexbox */
+  display: flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : flex-end;
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 20.83%;
+  height              : 25.00%;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 110px;
+}
+.bp3-screen5 .bp3-footer-tablet .bp3-links .bp3-careers {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+  text-decoration     : underline;
+}
+.bp3-screen5 .bp3-partner-frame {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 1432px;
+  height              : 447px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen5 .bp3-partner-frame .bp3-main-content {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 768px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp3-screen5 .bp3-partner-frame .bp3-main-content-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-screen5 .bp3-partner-frame .bp3-main-content .bp3-view1 {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen5 .bp3-partner-frame .bp3-main-content .bp3-laboratory-interior {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 7.16%;
+  height              : 64.43%;
+  width               : 470px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38.80%;
+  overflow            : hidden;
+}
+.bp3-screen5 .bp3-partner-frame .bp3-main-content .bp3-text-block {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 9.84%;
+  height              : 54.14%;
+  width               : 266px;
+  position            : absolute;
+  margin              : 0;
+  left                : 2.08%;
+}
+.bp3-screen5 .bp3-partner-frame .bp3-main-content .bp3-text-block .bp3-hero-link {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 80.17%;
+  height              : 19.83%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Bd", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(61, 61, 61, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp3-screen5 .bp3-partner-frame .bp3-main-content .bp3-text-block .bp3-consultation-text {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 14.05%;
+  height              : 59.50%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp3-screen5 .bp3-partner-frame .bp3-main-content .bp3-text-block .bp3-consultation-headline {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 9.92%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-MdCn", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp3-screen5 .bp3-interview-frame {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 472px;
+  height              : 960px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen5 .bp3-interview-frame .bp3-view2 {
+  background          : rgba(20, 20, 20, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen5 .bp3-interview-frame .bp3-product-frames {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 736px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp3-screen5 .bp3-interview-frame .bp3-product-frames-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 39.90%;
+  align-items         : center;
+  height              : 53.44%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-screen5 .bp3-interview-frame .bp3-product-frames .bp3-luminex-frame {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 99.81%;
+  width               : 48.91%;
+  position            : absolute;
+  margin              : 0;
+  left                : 51.09%;
+}
+.bp3-screen5 .bp3-interview-frame .bp3-product-frames .bp3-luminex-frame .bp3-luminex-background {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen5 .bp3-interview-frame .bp3-product-frames .bp3-luminex-frame .bp3-procartaplex-immuno {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 52.93%;
+  height              : 27.93%;
+  width               : 91.67%;
+  position            : absolute;
+  margin              : 0;
+  left                : 4.44%;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(62, 62, 62, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp3-screen5 .bp3-interview-frame .bp3-product-frames .bp3-luminex-frame .bp3-luminex-image {
+  background          : rgba(222, 222, 222, 1.0);
+  top                 : 15.43%;
+  height              : 34.77%;
+  width               : 57.78%;
+  position            : absolute;
+  margin              : 0;
+  left                : 21.67%;
+  overflow            : hidden;
+}
+.bp3-screen5 .bp3-interview-frame .bp3-product-frames .bp3-luminex-frame .bp3-luminex-image .bp3-mask {
+  background          : rgba(222, 222, 222, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen5 .bp3-interview-frame .bp3-product-frames .bp3-luminex-frame .bp3-luminex-image .bp3-a1505997812343 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 100.56%;
+  width               : 101.92%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen5 .bp3-interview-frame .bp3-product-frames .bp3-luminex-frame .bp3-procartaplex-immune {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2.93%;
+  height              : 4.69%;
+  width               : 91.11%;
+  position            : absolute;
+  margin              : 0;
+  left                : 4.44%;
+  font-family         : "HelveticaNeueLTStd-Bd", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(63, 63, 63, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.bp3-screen5 .bp3-interview-frame .bp3-product-frames .bp3-checkpoint-frame {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 99.81%;
+  width               : 48.91%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen5 .bp3-interview-frame .bp3-product-frames .bp3-checkpoint-frame .bp3-view3 {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen5 .bp3-interview-frame .bp3-product-frames .bp3-checkpoint-frame .bp3-the-procartaplex-imm {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 52.73%;
+  height              : 42.19%;
+  width               : 91.11%;
+  position            : absolute;
+  margin              : 0;
+  left                : 4.44%;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(62, 62, 62, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp3-screen5 .bp3-interview-frame .bp3-product-frames .bp3-checkpoint-frame .bp3-checkpoint-product-image {
+  background          : rgba(222, 222, 222, 1.0);
+  top                 : 21.09%;
+  height              : 27.93%;
+  width               : 57.78%;
+  position            : absolute;
+  margin              : 0;
+  left                : 21.11%;
+  overflow            : hidden;
+}
+.bp3-screen5 .bp3-interview-frame .bp3-product-frames .bp3-checkpoint-frame .bp3-checkpoint-product-image .bp3-view4 {
+  background          : rgba(222, 222, 222, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen5 .bp3-interview-frame .bp3-product-frames .bp3-checkpoint-frame .bp3-checkpoint-product-image .bp3-e-px11012170901650x600jpg650 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 137.76%;
+  width               : 102.88%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen5 .bp3-interview-frame .bp3-product-frames .bp3-checkpoint-frame .bp3-procartaplex-human-i {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2.73%;
+  height              : 9.38%;
+  width               : 91.11%;
+  position            : absolute;
+  margin              : 0;
+  left                : 4.44%;
+  font-family         : "HelveticaNeueLTStd-Bd", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(63, 63, 63, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.bp3-screen5 .bp3-interview-frame .bp3-view5 {
+  background          : rgba(255, 255, 255, 0.0);
+  right               : 392px;
+  top                 : 4.58%;
+  height              : 30.21%;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+}
+.bp3-screen5 .bp3-interview-frame .bp3-view5 .bp3-label1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 91.72%;
+  height              : 8.28%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Bd", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp3-screen5 .bp3-interview-frame .bp3-view5 .bp3-thermo-fisher-scient {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 20.00%;
+  height              : 66.90%;
+  width               : 100.56%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp3-screen5 .bp3-interview-frame .bp3-view5 .bp3-head-of-society-for {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 16.55%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-MdCn", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp3-screen5 .bp3-interview-frame .bp3-nice-image {
+  background          : rgba(107, 107, 107, 1.0);
+  right               : 0px;
+  top                 : 3.33%;
+  height              : 23.33%;
+  width               : 376px;
+  position            : absolute;
+  margin              : 0;
+  overflow            : hidden;
+}
+.bp3-screen5 .bp3-interview-frame .bp3-nice-image .bp3-view6 {
+  background          : rgba(107, 107, 107, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  opacity             : 0.0;
+}
+.bp3-screen5 .bp3-interview-frame .bp3-nice-image .bp3-a1502379841263 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 111.61%;
+  width               : 188.83%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen5 .bp3-hero-frame {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 88px;
+  height              : 384px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen5 .bp3-hero-frame .bp3-view7 {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 768px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp3-screen5 .bp3-hero-frame .bp3-view7-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 100%;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-screen5 .bp3-hero-frame .bp3-view7 .bp3-hero-background {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen5 .bp3-hero-frame .bp3-view7 .bp3-hero-photo {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 83.33%;
+  width               : 470px;
+  position            : absolute;
+  margin              : 0;
+  left                : 38.80%;
+  overflow            : hidden;
+}
+.bp3-screen5 .bp3-hero-frame .bp3-view7 .bp3-view8 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 11.46%;
+  height              : 75.52%;
+  width               : 266px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1.95%;
+}
+.bp3-screen5 .bp3-hero-frame .bp3-view7 .bp3-view8 .bp3-hero-headline {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 16.55%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.38%;
+  font-family         : "HelveticaNeueLTStd-MdCn", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp3-screen5 .bp3-hero-frame .bp3-view7 .bp3-view8 .bp3-hero-text {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 20.00%;
+  height              : 66.21%;
+  width               : 100.75%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp3-screen5 .bp3-hero-frame .bp3-view7 .bp3-view8 .bp3-label2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 91.72%;
+  height              : 8.28%;
+  width               : 92.48%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.38%;
+  font-family         : "HelveticaNeueLTStd-Bd", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(61, 61, 61, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp3-screen5 .bp3-navigation-bar-tablet {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen5 .bp3-navigation-bar-tablet .bp3-view9 {
+  background          : rgba(20, 20, 20, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen5 .bp3-navigation-bar-tablet .bp3-atlas-logo-maximum-resolution-refined {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 20.45%;
+  height              : 48px;
+  width               : 216px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+}
+.bp3-screen5 .bp3-navigation-bar-tablet .bp3-navigation-buttons {
+  /* Flexbox */
+  display: flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : center;
+  background          : rgba(255, 255, 255, 0.0);
+  right               : 32px;
+  top                 : 37.50%;
+  height              : 22.73%;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+}
+.bp3-screen5 .bp3-navigation-bar-tablet .bp3-navigation-buttons .bp3-cro-services {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp3-screen5 .bp3-navigation-bar-tablet .bp3-navigation-buttons .bp3-about-us {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 64px;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp3-screen5 .bp3-navigation-bar-tablet .bp3-navigation-buttons .bp3-contact {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 64px;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.bp4-screen6 {
+  width               : 100%;
+  min-width           : 320px;
+  height              : 100vh;
+  min-height          : 3032px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background          : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp4-screen6 .bp4-footer-mobile {
+  background          : rgba(255, 255, 255, 0.0);
+  bottom              : 0px;
+  height              : 64px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen6 .bp4-footer-mobile .bp4-background {
+  background          : rgba(127, 127, 127, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen6 .bp4-footer-mobile .bp4-a2018-atlas-genomic {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 46.88%;
+  height              : 37.50%;
+  width               : 89.06%;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp4-screen6 .bp4-footer-mobile .bp4-links {
+  /* Flexbox */
+  display: flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : flex-end;
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 9.38%;
+  height              : 37.50%;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+}
+.bp4-screen6 .bp4-footer-mobile .bp4-links .bp4-careers {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+  text-decoration     : underline;
+}
+.bp4-screen6 .bp4-partner-frame {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 2488px;
+  height              : 480px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen6 .bp4-partner-frame .bp4-rectangle2 {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen6 .bp4-partner-frame .bp4-laboratory-interior {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 320px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  overflow            : hidden;
+}
+.bp4-screen6 .bp4-partner-frame .bp4-laboratory-interior-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 40.00%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp4-screen6 .bp4-partner-frame .bp4-text-block {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 288px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp4-screen6 .bp4-partner-frame .bp4-text-block-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 42.50%;
+  align-items         : center;
+  height              : 47.08%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp4-screen6 .bp4-partner-frame .bp4-text-block .bp4-hero-link {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 78.76%;
+  height              : 21.24%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Bd", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(61, 61, 61, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp4-screen6 .bp4-partner-frame .bp4-text-block .bp4-consultation-headline {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 10.62%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-MdCn", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp4-screen6 .bp4-partner-frame .bp4-text-block .bp4-consultation-text {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 18.58%;
+  height              : 53.10%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp4-screen6 .bp4-interview-frame {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 664px;
+  height              : 1824px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen6 .bp4-interview-frame .bp4-view1 {
+  background          : rgba(20, 20, 20, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen6 .bp4-interview-frame .bp4-procartaplex-immune {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 288px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp4-screen6 .bp4-interview-frame .bp4-procartaplex-immune-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 70.18%;
+  align-items         : center;
+  height              : 28.07%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp4-screen6 .bp4-interview-frame .bp4-procartaplex-immune .bp4-rectangle8 {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen6 .bp4-interview-frame .bp4-procartaplex-immune .bp4-procartaplex-immuno {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 260px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(62, 62, 62, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp4-screen6 .bp4-interview-frame .bp4-procartaplex-immune .bp4-procartaplex-immuno-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 52.73%;
+  align-items         : center;
+  height              : 37.89%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp4-screen6 .bp4-interview-frame .bp4-procartaplex-immune .bp4-luminex {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  pointer-events      : auto;
+  width               : 208px;
+}
+.bp4-screen6 .bp4-interview-frame .bp4-procartaplex-immune .bp4-luminex-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 14.06%;
+  align-items         : center;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp4-screen6 .bp4-interview-frame .bp4-procartaplex-immune .bp4-label1 {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 212px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  font-family         : "HelveticaNeueLTStd-Bd", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(63, 63, 63, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.bp4-screen6 .bp4-interview-frame .bp4-procartaplex-immune .bp4-label1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 2.73%;
+  align-items         : center;
+  height              : 9.38%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp4-screen6 .bp4-interview-frame .bp4-checkpoint-panel {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 288px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp4-screen6 .bp4-interview-frame .bp4-checkpoint-panel-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 36.84%;
+  align-items         : center;
+  height              : 31.58%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp4-screen6 .bp4-interview-frame .bp4-checkpoint-panel .bp4-view2 {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen6 .bp4-interview-frame .bp4-checkpoint-panel .bp4-the-procartaplex-imm {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 260px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(62, 62, 62, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp4-screen6 .bp4-interview-frame .bp4-checkpoint-panel .bp4-the-procartaplex-imm-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 41.32%;
+  align-items         : center;
+  height              : 50.00%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp4-screen6 .bp4-interview-frame .bp4-checkpoint-panel .bp4-product {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  pointer-events      : auto;
+  width               : 208px;
+}
+.bp4-screen6 .bp4-interview-frame .bp4-checkpoint-panel .bp4-product-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 12.50%;
+  align-items         : center;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp4-screen6 .bp4-interview-frame .bp4-checkpoint-panel .bp4-procartaplex-human-i {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 212px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  font-family         : "HelveticaNeueLTStd-Bd", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(63, 63, 63, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.bp4-screen6 .bp4-interview-frame .bp4-checkpoint-panel .bp4-procartaplex-human-i-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 2.43%;
+  align-items         : center;
+  height              : 8.33%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp4-screen6 .bp4-interview-frame .bp4-view3 {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 288px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp4-screen6 .bp4-interview-frame .bp4-view3-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 12.94%;
+  align-items         : center;
+  height              : 21.60%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp4-screen6 .bp4-interview-frame .bp4-view3 .bp4-label2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 87.82%;
+  height              : 12.18%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Bd", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp4-screen6 .bp4-interview-frame .bp4-view3 .bp4-head-of-society-for {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 18.27%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-MdCn", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp4-screen6 .bp4-interview-frame .bp4-view3 .bp4-thermo-fisher-scient {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 22.84%;
+  height              : 61.42%;
+  width               : 100.69%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp4-screen6 .bp4-interview-frame .bp4-cellular-image {
+  background          : rgba(107, 107, 107, 1.0);
+  width               : 320px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  overflow            : hidden;
+}
+.bp4-screen6 .bp4-interview-frame .bp4-cellular-image-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 12.28%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp4-screen6 .bp4-interview-frame .bp4-cellular-image .bp4-mask {
+  background          : rgba(107, 107, 107, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen6 .bp4-interview-frame .bp4-cellular-image .bp4-a1502379841263 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 111.61%;
+  width               : 221.88%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen6 .bp4-hero-frame {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 120px;
+  height              : 544px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen6 .bp4-hero-frame .bp4-view4 {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen6 .bp4-hero-frame .bp4-view5 {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 288px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp4-screen6 .bp4-hero-frame .bp4-view5-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 37.50%;
+  align-items         : center;
+  height              : 54.78%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp4-screen6 .bp4-hero-frame .bp4-view5 .bp4-label3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 91.95%;
+  height              : 8.05%;
+  width               : 85.42%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.35%;
+  font-family         : "HelveticaNeueLTStd-Bd", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(61, 61, 61, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp4-screen6 .bp4-hero-frame .bp4-view5 .bp4-hero-text {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 22.15%;
+  height              : 64.43%;
+  width               : 100.69%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp4-screen6 .bp4-hero-frame .bp4-view5 .bp4-hero-headline {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 16.11%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0.35%;
+  font-family         : "HelveticaNeueLTStd-MdCn", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp4-screen6 .bp4-hero-frame .bp4-hero-photo {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  pointer-events      : auto;
+  width               : 320px;
+  overflow            : hidden;
+}
+.bp4-screen6 .bp4-hero-frame .bp4-hero-photo-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp4-screen6 .bp4-navigation-header-mobile {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 120px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen6 .bp4-navigation-header-mobile .bp4-navigation-background {
+  background          : rgba(20, 20, 20, 1.0);
+  top                 : 53.33%;
+  height              : 46.67%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen6 .bp4-navigation-header-mobile .bp4-stack-view1 {
+  /* Flexbox */
+  display: flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : center;
+  background          : rgba(255, 255, 255, 0.0);
+  width               : auto;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp4-screen6 .bp4-navigation-header-mobile .bp4-stack-view1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 71.67%;
+  align-items         : center;
+  height              : 11.67%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp4-screen6 .bp4-navigation-header-mobile .bp4-stack-view1 .bp4-cro-services {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.bp4-screen6 .bp4-navigation-header-mobile .bp4-stack-view1 .bp4-about-us {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 32px;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.bp4-screen6 .bp4-navigation-header-mobile .bp4-stack-view1 .bp4-contact {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 32px;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.bp4-screen6 .bp4-navigation-header-mobile .bp4-logo {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 53.33%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen6 .bp4-navigation-header-mobile .bp4-logo .bp4-logo-background {
+  background          : rgba(20, 20, 20, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen6 .bp4-navigation-header-mobile .bp4-logo .bp4-atlas-logo-mobile {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 216px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp4-screen6 .bp4-navigation-header-mobile .bp4-logo .bp4-atlas-logo-mobile-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 12.50%;
+  align-items         : center;
+  height              : 48px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp4-screen6 .bp4-navigation-header-mobile .bp4-logo .bp4-atlas-logo-mobile .bp4-atlas-logo-maximum-resolution-refined {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 48px;
+  width               : 216px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@media screen and (max-width: 767px) {
+  .bp4-screen6 {
+    display             : block;
+  }
+  .bp3-screen5 {
+    display             : none;
+  }
+  .bp2-screen4 {
+    display             : none;
+  }
+  .bp1-index {
+    display             : none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .bp4-screen6 {
+    display             : none;
+  }
+  .bp3-screen5 {
+    display             : block;
+  }
+  .bp2-screen4 {
+    display             : none;
+  }
+  .bp1-index {
+    display             : none;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .bp4-screen6 {
+    display             : none;
+  }
+  .bp3-screen5 {
+    display             : none;
+  }
+  .bp2-screen4 {
+    display             : block;
+  }
+  .bp1-index {
+    display             : none;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .bp4-screen6 {
+    display             : none;
+  }
+  .bp3-screen5 {
+    display             : none;
+  }
+  .bp2-screen4 {
+    display             : none;
+  }
+  .bp1-index {
+    display             : block;
+  }
+}

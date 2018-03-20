@@ -1,0 +1,1618 @@
+
+@font-face {
+  font-family: "HelveticaNeueLTStd-Roman";
+  src: url('../fonts/HelveticaNeueLTStd-Roman.otf') format("opentype");
+}
+@font-face {
+  font-family: "HelveticaNeueLTStd-Bd";
+  src: url('../fonts/HelveticaNeueLTStd-Bd.otf') format("opentype");
+}
+@font-face {
+  font-family: "HelveticaNeueLTStd-MdCn";
+  src: url('../fonts/HelveticaNeueLTStd-MdCn.otf') format("opentype");
+}
+@font-face {
+  font-family: "HelveticaNeueLTStd-Lt";
+  src: url('../fonts/HelveticaNeueLTStd-Lt.otf') format("opentype");
+}
+
+.bp1-careers {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 1032px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background          : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp1-careers .bp1-about-us-section-header {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 120px;
+  height              : 112px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-careers .bp1-about-us-section-header .bp1-rectangle {
+  background          : rgba(24, 169, 144, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-careers .bp1-about-us-section-header .bp1-title {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 28.57%;
+  height              : 39.29%;
+  width               : 9.24%;
+  position            : absolute;
+  margin              : 0;
+  left                : 17.01%;
+  font-family         : "HelveticaNeueLTStd-MdCn", Helvetica, Arial, serif;
+  font-size           : 44.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 53.0px;
+}
+.bp1-careers .bp1-text-block {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 624px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp1-careers .bp1-text-block-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 317px;
+  align-items         : center;
+  height              : 199px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-careers .bp1-text-block .bp1-join-the-team-at-atl {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : 624px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  font-family         : "HelveticaNeueLTStd-MdCn", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : center;
+  line-height         : 43.0px;
+}
+.bp1-careers .bp1-text-block .bp1-are-you-interested-i {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 56px;
+  height              : auto;
+  width               : 624px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp1-careers .bp1-text-block .bp1-there-are-no-positio {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 175px;
+  height              : auto;
+  width               : 624px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(84, 84, 84, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.bp1-careers .bp1-stock-photo-bar {
+  background          : rgba(255, 255, 255, 0.0);
+  bottom              : 120px;
+  height              : 320px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+}
+.bp1-careers .bp1-stock-photo-bar .bp1-mask {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-careers .bp1-stock-photo-bar .bp1-bitmap {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  pointer-events      : auto;
+  width               : 782px;
+}
+.bp1-careers .bp1-stock-photo-bar .bp1-bitmap-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-careers .bp1-footer-hd {
+  background          : rgba(255, 255, 255, 0.0);
+  bottom              : 0px;
+  height              : 120px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-careers .bp1-footer-hd .bp1-background {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-careers .bp1-footer-hd .bp1-a2018-atlas-genomic {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 51.67%;
+  height              : 20.00%;
+  width               : 19.79%;
+  position            : absolute;
+  margin              : 0;
+  left                : 244px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp1-careers .bp1-footer-hd .bp1-links {
+  /* Flexbox */
+  display: flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : flex-end;
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 30px;
+  height              : 20.00%;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 244px;
+}
+.bp1-careers .bp1-footer-hd .bp1-links .bp1-label1 {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+  text-decoration     : underline;
+}
+.bp1-careers .bp1-navigation-header-desktop-hd {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 120px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-careers .bp1-navigation-header-desktop-hd .bp1-navigation-background {
+  background          : rgba(20, 20, 20, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-careers .bp1-navigation-header-desktop-hd .bp1-navigation-buttons {
+  /* Flexbox */
+  display: flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : center;
+  background          : rgba(255, 255, 255, 0.0);
+  right               : 80px;
+  top                 : 42.50%;
+  height              : 16.67%;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+}
+.bp1-careers .bp1-navigation-header-desktop-hd .bp1-navigation-buttons .bp1-cro-services-standard {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : 20px;
+  margin              : 0;
+  width               : 126px;
+}
+.bp1-careers .bp1-navigation-header-desktop-hd .bp1-navigation-buttons .bp1-cro-services-standard .bp1-cro-services {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 101.59%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp1-careers .bp1-navigation-header-desktop-hd .bp1-navigation-buttons .bp1-about-us-standard {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : 20px;
+  margin              : 0 0 0 64px;
+  width               : 84px;
+}
+.bp1-careers .bp1-navigation-header-desktop-hd .bp1-navigation-buttons .bp1-about-us-standard .bp1-about-us {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 102.38%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp1-careers .bp1-navigation-header-desktop-hd .bp1-navigation-buttons .bp1-contact-standard {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : 20px;
+  margin              : 0 0 0 64px;
+  width               : 72px;
+}
+.bp1-careers .bp1-navigation-header-desktop-hd .bp1-navigation-buttons .bp1-contact-standard .bp1-contact {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 102.78%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp1-careers .bp1-navigation-header-desktop-hd .bp1-atlas-logo {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 20.83%;
+  height              : 71px;
+  width               : 318px;
+  position            : absolute;
+  margin              : 0;
+  left                : 80px;
+}
+.bp1-careers .bp1-navigation-header-desktop-hd .bp1-atlas-logo .bp1-atlas-logo-maximum-resolution-refined {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 71px;
+  width               : 318px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.bp2-screen1 {
+  width               : 100%;
+  min-width           : 1024px;
+  height              : 100vh;
+  min-height          : 976px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background          : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp2-screen1 .bp2-section-header-desktop-non-hd {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 102px;
+  height              : 96px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen1 .bp2-section-header-desktop-non-hd .bp2-rectangle {
+  background          : rgba(24, 169, 144, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen1 .bp2-section-header-desktop-non-hd .bp2-title {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 22.92%;
+  height              : 45.83%;
+  width               : 12.99%;
+  position            : absolute;
+  margin              : 0;
+  left                : 154px;
+  font-family         : "HelveticaNeueLTStd-MdCn", Helvetica, Arial, serif;
+  font-size           : 44.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 53.0px;
+}
+.bp2-screen1 .bp2-stock-photo-bar {
+  background          : rgba(255, 255, 255, 0.0);
+  bottom              : 120px;
+  height              : 320px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+}
+.bp2-screen1 .bp2-stock-photo-bar .bp2-mask {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen1 .bp2-stock-photo-bar .bp2-bitmap {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  pointer-events      : auto;
+  width               : 782px;
+}
+.bp2-screen1 .bp2-stock-photo-bar .bp2-bitmap-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-screen1 .bp2-text-block {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 472px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp2-screen1 .bp2-text-block-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 288px;
+  align-items         : center;
+  height              : 188px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-screen1 .bp2-text-block .bp2-join-the-team-at-atl {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : -3px;
+  height              : auto;
+  width               : 472px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  font-family         : "HelveticaNeueLTStd-MdCn", Helvetica, Arial, serif;
+  font-size           : 28.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : center;
+  line-height         : 34.0px;
+}
+.bp2-screen1 .bp2-text-block .bp2-are-you-interested-i {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 37px;
+  height              : auto;
+  width               : 472px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp2-screen1 .bp2-text-block .bp2-there-are-no-positio {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 164px;
+  height              : auto;
+  width               : 472px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(84, 84, 84, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.bp2-screen1 .bp2-navigation-header-dektop-non-hd {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 102px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen1 .bp2-navigation-header-dektop-non-hd .bp2-navigation-background {
+  background          : rgba(20, 20, 20, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen1 .bp2-navigation-header-dektop-non-hd .bp2-navigation-buttons {
+  /* Flexbox */
+  display: flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : center;
+  background          : rgba(255, 255, 255, 0.0);
+  right               : 32px;
+  top                 : 41.18%;
+  height              : 19.61%;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+}
+.bp2-screen1 .bp2-navigation-header-dektop-non-hd .bp2-navigation-buttons .bp2-cro-services {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp2-screen1 .bp2-navigation-header-dektop-non-hd .bp2-navigation-buttons .bp2-about-us {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 64px;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp2-screen1 .bp2-navigation-header-dektop-non-hd .bp2-navigation-buttons .bp2-contact {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 64px;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp2-screen1 .bp2-navigation-header-dektop-non-hd .bp2-atlas-logo {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 15.69%;
+  height              : 71px;
+  width               : 318px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+}
+.bp2-screen1 .bp2-navigation-header-dektop-non-hd .bp2-atlas-logo .bp2-atlas-logo-maximum-resolution-refined {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 71px;
+  width               : 318px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen1 .bp2-footer-non-hd {
+  background          : rgba(255, 255, 255, 0.0);
+  bottom              : 0px;
+  height              : 120px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen1 .bp2-footer-non-hd .bp2-background {
+  background          : rgba(127, 127, 127, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen1 .bp2-footer-non-hd .bp2-a2018-atlas-genomic {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 53.33%;
+  height              : 20.00%;
+  width               : 27.83%;
+  position            : absolute;
+  margin              : 0;
+  left                : 156px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp2-screen1 .bp2-footer-non-hd .bp2-links {
+  /* Flexbox */
+  display: flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : flex-end;
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 32px;
+  height              : 20.00%;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 156px;
+}
+.bp2-screen1 .bp2-footer-non-hd .bp2-links .bp2-careers {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+  text-decoration     : underline;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.bp4-screen2 {
+  width               : 100%;
+  min-width           : 320px;
+  height              : 100vh;
+  min-height          : 696px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background          : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp4-screen2 .bp4-section-title-mobile {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 120px;
+  height              : 56px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen2 .bp4-section-title-mobile .bp4-rectangle {
+  background          : rgba(24, 169, 144, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen2 .bp4-section-title-mobile .bp4-section-title {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 28.44%;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  font-family         : "HelveticaNeueLTStd-MdCn", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 40.0px;
+}
+.bp4-screen2 .bp4-section-title-mobile .bp4-section-title-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 14.29%;
+  align-items         : center;
+  height              : 71.43%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp4-screen2 .bp4-text-block {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 288px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp4-screen2 .bp4-text-block-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 228px;
+  align-items         : center;
+  height              : 218px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp4-screen2 .bp4-text-block .bp4-join-the-team-at-atl {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 21px;
+  font-family         : "HelveticaNeueLTStd-MdCn", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp4-screen2 .bp4-text-block .bp4-are-you-interested-i {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 33px;
+  height              : auto;
+  width               : 288px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp4-screen2 .bp4-text-block .bp4-there-are-no-positio {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 194px;
+  height              : auto;
+  width               : 288px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(84, 84, 84, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.bp4-screen2 .bp4-workers {
+  background          : rgba(10, 51, 44, 1.0);
+  bottom              : 64px;
+  height              : 128px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+}
+.bp4-screen2 .bp4-workers .bp4-mask {
+  background          : rgba(10, 51, 44, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen2 .bp4-workers .bp4-image1 {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 320px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp4-screen2 .bp4-workers .bp4-image1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 102.34%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp4-screen2 .bp4-navigation-header-mobile {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 120px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen2 .bp4-navigation-header-mobile .bp4-navigation-background {
+  background          : rgba(20, 20, 20, 1.0);
+  top                 : 53.33%;
+  height              : 46.67%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen2 .bp4-navigation-header-mobile .bp4-links {
+  /* Flexbox */
+  display: flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : center;
+  background          : rgba(255, 255, 255, 0.0);
+  width               : auto;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp4-screen2 .bp4-navigation-header-mobile .bp4-links-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 71.67%;
+  align-items         : center;
+  height              : 11.67%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp4-screen2 .bp4-navigation-header-mobile .bp4-links .bp4-cro-services {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.bp4-screen2 .bp4-navigation-header-mobile .bp4-links .bp4-about-us {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 32px;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.bp4-screen2 .bp4-navigation-header-mobile .bp4-links .bp4-contact {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 32px;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.bp4-screen2 .bp4-navigation-header-mobile .bp4-logo {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 53.33%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen2 .bp4-navigation-header-mobile .bp4-logo .bp4-logo-background {
+  background          : rgba(20, 20, 20, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen2 .bp4-navigation-header-mobile .bp4-logo .bp4-atlas-logo-mobile {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 216px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp4-screen2 .bp4-navigation-header-mobile .bp4-logo .bp4-atlas-logo-mobile-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 12.50%;
+  align-items         : center;
+  height              : 48px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp4-screen2 .bp4-navigation-header-mobile .bp4-logo .bp4-atlas-logo-mobile .bp4-atlas-logo-maximum-resolution-refined {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 48px;
+  width               : 216px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen2 .bp4-footer-mobile {
+  background          : rgba(255, 255, 255, 0.0);
+  bottom              : 0px;
+  height              : 64px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen2 .bp4-footer-mobile .bp4-background {
+  background          : rgba(127, 127, 127, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen2 .bp4-footer-mobile .bp4-a2018-atlas-genomic {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 46.88%;
+  height              : 37.50%;
+  width               : 89.06%;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp4-screen2 .bp4-footer-mobile .bp4-stack-view1 {
+  /* Flexbox */
+  display: flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : flex-end;
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 9.38%;
+  height              : 37.50%;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+}
+.bp4-screen2 .bp4-footer-mobile .bp4-stack-view1 .bp4-careers {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+  text-decoration     : underline;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.bp3-screen3 {
+  width               : 100%;
+  min-width           : 768px;
+  height              : 100vh;
+  min-height          : 824px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background          : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp3-screen3 .bp3-section-header-tablet {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 88px;
+  height              : 64px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen3 .bp3-section-header-tablet .bp3-rectangle {
+  background          : rgba(24, 169, 144, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen3 .bp3-section-header-tablet .bp3-title {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 18.75%;
+  height              : 62.50%;
+  width               : 11.85%;
+  position            : absolute;
+  margin              : 0;
+  left                : 110px;
+  font-family         : "HelveticaNeueLTStd-MdCn", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 40.0px;
+}
+.bp3-screen3 .bp3-text-block {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 548px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp3-screen3 .bp3-text-block-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 220px;
+  align-items         : center;
+  height              : 208px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-screen3 .bp3-text-block .bp3-join-the-team-at-atl {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 94px;
+  font-family         : "HelveticaNeueLTStd-MdCn", Helvetica, Arial, serif;
+  font-size           : 28.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : left;
+  line-height         : 34.0px;
+}
+.bp3-screen3 .bp3-text-block .bp3-are-you-interested-i {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 41px;
+  height              : auto;
+  width               : 360px;
+  position            : absolute;
+  margin              : 0;
+  left                : 93px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp3-screen3 .bp3-text-block .bp3-there-are-no-positio {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 184px;
+  height              : auto;
+  width               : 548px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(84, 84, 84, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.bp3-screen3 .bp3-stock-photo-bar {
+  background          : rgba(255, 255, 255, 0.0);
+  bottom              : 96px;
+  height              : 224px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+}
+.bp3-screen3 .bp3-stock-photo-bar .bp3-mask {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen3 .bp3-stock-photo-bar .bp3-bitmap {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  pointer-events      : auto;
+  width               : 548px;
+}
+.bp3-screen3 .bp3-stock-photo-bar .bp3-bitmap-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-screen3 .bp3-navigation-bar-tablet {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen3 .bp3-navigation-bar-tablet .bp3-background {
+  background          : rgba(20, 20, 20, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen3 .bp3-navigation-bar-tablet .bp3-atlas-logo-maximum-resolution-refined {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 20.45%;
+  height              : 48px;
+  width               : 216px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+}
+.bp3-screen3 .bp3-navigation-bar-tablet .bp3-navigation-buttons {
+  /* Flexbox */
+  display: flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : center;
+  background          : rgba(255, 255, 255, 0.0);
+  right               : 32px;
+  top                 : 37.50%;
+  height              : 22.73%;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+}
+.bp3-screen3 .bp3-navigation-bar-tablet .bp3-navigation-buttons .bp3-cro-services {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp3-screen3 .bp3-navigation-bar-tablet .bp3-navigation-buttons .bp3-about-us {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 64px;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp3-screen3 .bp3-navigation-bar-tablet .bp3-navigation-buttons .bp3-contact {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 64px;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp3-screen3 .bp3-footer-tablet {
+  background          : rgba(255, 255, 255, 0.0);
+  bottom              : 0px;
+  height              : 96px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen3 .bp3-footer-tablet .bp3-view1 {
+  background          : rgba(127, 127, 127, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen3 .bp3-footer-tablet .bp3-a2018-atlas-genomic {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 54.17%;
+  height              : 25.00%;
+  width               : 37.11%;
+  position            : absolute;
+  margin              : 0;
+  left                : 110px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp3-screen3 .bp3-footer-tablet .bp3-links {
+  /* Flexbox */
+  display: flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : flex-end;
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 20.83%;
+  height              : 25.00%;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 110px;
+}
+.bp3-screen3 .bp3-footer-tablet .bp3-links .bp3-careers {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+  text-decoration     : underline;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@media screen and (max-width: 767px) {
+  .bp4-screen2 {
+    display             : block;
+  }
+  .bp3-screen3 {
+    display             : none;
+  }
+  .bp2-screen1 {
+    display             : none;
+  }
+  .bp1-careers {
+    display             : none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .bp4-screen2 {
+    display             : none;
+  }
+  .bp3-screen3 {
+    display             : block;
+  }
+  .bp2-screen1 {
+    display             : none;
+  }
+  .bp1-careers {
+    display             : none;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .bp4-screen2 {
+    display             : none;
+  }
+  .bp3-screen3 {
+    display             : none;
+  }
+  .bp2-screen1 {
+    display             : block;
+  }
+  .bp1-careers {
+    display             : none;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .bp4-screen2 {
+    display             : none;
+  }
+  .bp3-screen3 {
+    display             : none;
+  }
+  .bp2-screen1 {
+    display             : none;
+  }
+  .bp1-careers {
+    display             : block;
+  }
+}

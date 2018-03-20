@@ -1,0 +1,2573 @@
+
+@font-face {
+  font-family: "HelveticaNeueLTStd-Roman";
+  src: url('../fonts/HelveticaNeueLTStd-Roman.otf') format("opentype");
+}
+@font-face {
+  font-family: "HelveticaNeueLTStd-Bd";
+  src: url('../fonts/HelveticaNeueLTStd-Bd.otf') format("opentype");
+}
+@font-face {
+  font-family: "HelveticaNeueLTStd-MdCn";
+  src: url('../fonts/HelveticaNeueLTStd-MdCn.otf') format("opentype");
+}
+@font-face {
+  font-family: "HelveticaNeueLTStd-Lt";
+  src: url('../fonts/HelveticaNeueLTStd-Lt.otf') format("opentype");
+}
+
+.bp1-aboutus {
+  width               : 100%;
+  min-width           : 1440px;
+  height              : 100vh;
+  min-height          : 1512px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background          : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp1-aboutus .bp1-meet-the-team-frame {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 871px;
+  height              : 521px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-aboutus .bp1-meet-the-team-frame .bp1-background {
+  background          : rgba(224, 224, 224, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-aboutus .bp1-meet-the-team-frame .bp1-name-cards {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 1280px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp1-aboutus .bp1-meet-the-team-frame .bp1-name-cards-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 53.93%;
+  align-items         : center;
+  height              : 23.03%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-aboutus .bp1-meet-the-team-frame .bp1-name-cards .bp1-name-card {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 23.12%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-aboutus .bp1-meet-the-team-frame .bp1-name-cards .bp1-name-card .bp1-view1 {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-aboutus .bp1-meet-the-team-frame .bp1-name-cards .bp1-name-card .bp1-title {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 44.17%;
+  height              : 11.67%;
+  width               : 56.08%;
+  position            : absolute;
+  margin              : 0;
+  left                : 21.96%;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(21, 21, 21, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.bp1-aboutus .bp1-meet-the-team-frame .bp1-name-cards .bp1-name-card .bp1-name {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 18.33%;
+  height              : 20.00%;
+  width               : 74.32%;
+  position            : absolute;
+  margin              : 0;
+  left                : 12.84%;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(249, 33, 75, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.bp1-aboutus .bp1-meet-the-team-frame .bp1-name-cards .bp1-view2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 23.12%;
+  position            : absolute;
+  margin              : 0;
+  left                : 25.62%;
+}
+.bp1-aboutus .bp1-meet-the-team-frame .bp1-name-cards .bp1-view2 .bp1-view3 {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-aboutus .bp1-meet-the-team-frame .bp1-name-cards .bp1-view2 .bp1-label1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 45.00%;
+  height              : 11.67%;
+  width               : 43.92%;
+  position            : absolute;
+  margin              : 0;
+  left                : 28.04%;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(21, 21, 21, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.bp1-aboutus .bp1-meet-the-team-frame .bp1-name-cards .bp1-view2 .bp1-label2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 18.33%;
+  height              : 20.00%;
+  width               : 55.41%;
+  position            : absolute;
+  margin              : 0;
+  left                : 22.30%;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(249, 33, 75, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.bp1-aboutus .bp1-meet-the-team-frame .bp1-name-cards .bp1-view4 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 23.12%;
+  position            : absolute;
+  margin              : 0;
+  left                : 51.25%;
+}
+.bp1-aboutus .bp1-meet-the-team-frame .bp1-name-cards .bp1-view4 .bp1-view5 {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-aboutus .bp1-meet-the-team-frame .bp1-name-cards .bp1-view4 .bp1-label3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 45.00%;
+  height              : 11.67%;
+  width               : 64.53%;
+  position            : absolute;
+  margin              : 0;
+  left                : 17.91%;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(21, 21, 21, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.bp1-aboutus .bp1-meet-the-team-frame .bp1-name-cards .bp1-view4 .bp1-label4 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 18.33%;
+  height              : 20.00%;
+  width               : 50.00%;
+  position            : absolute;
+  margin              : 0;
+  left                : 25.00%;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(249, 33, 75, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.bp1-aboutus .bp1-meet-the-team-frame .bp1-name-cards .bp1-view6 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 23.12%;
+  position            : absolute;
+  margin              : 0;
+  left                : 76.88%;
+}
+.bp1-aboutus .bp1-meet-the-team-frame .bp1-name-cards .bp1-view6 .bp1-view7 {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-aboutus .bp1-meet-the-team-frame .bp1-name-cards .bp1-view6 .bp1-label5 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 44.17%;
+  height              : 11.67%;
+  width               : 71.62%;
+  position            : absolute;
+  margin              : 0;
+  left                : 14.19%;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(21, 21, 21, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.bp1-aboutus .bp1-meet-the-team-frame .bp1-name-cards .bp1-view6 .bp1-label6 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 18.33%;
+  height              : 20.00%;
+  width               : 45.95%;
+  position            : absolute;
+  margin              : 0;
+  left                : 27.03%;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(249, 33, 75, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.bp1-aboutus .bp1-meet-the-team-frame .bp1-text-block {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 624px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp1-aboutus .bp1-meet-the-team-frame .bp1-text-block-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 16.51%;
+  align-items         : center;
+  height              : 24.57%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-aboutus .bp1-meet-the-team-frame .bp1-text-block .bp1-atlas-genomics-pers {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 43.75%;
+  height              : 56.25%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp1-aboutus .bp1-meet-the-team-frame .bp1-text-block .bp1-meet-the-atlas-genom {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 31.25%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-MdCn", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : center;
+  line-height         : 43.0px;
+}
+.bp1-aboutus .bp1-trusted-partner-frame {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 233px;
+  height              : 639px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-aboutus .bp1-trusted-partner-frame .bp1-view8 {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-aboutus .bp1-trusted-partner-frame .bp1-view9 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 13.15%;
+  height              : 68.86%;
+  width               : 624px;
+  position            : absolute;
+  margin              : 0;
+  left                : 572px;
+}
+.bp1-aboutus .bp1-trusted-partner-frame .bp1-view9 .bp1-atlas-genomics-is-a {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 12.73%;
+  height              : 87.27%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp1-aboutus .bp1-trusted-partner-frame .bp1-view9 .bp1-about-us-headline {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 9.09%;
+  width               : 66.03%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-MdCn", Helvetica, Arial, serif;
+  font-size           : 36.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : left;
+  line-height         : 43.0px;
+}
+.bp1-aboutus .bp1-trusted-partner-frame .bp1-exterior {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 13.93%;
+  height              : 430px;
+  width               : 540px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-aboutus .bp1-section-header {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 120px;
+  height              : 112px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-aboutus .bp1-section-header .bp1-rectangle {
+  background          : rgba(24, 169, 144, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-aboutus .bp1-section-header .bp1-label7 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 26.79%;
+  height              : 39.29%;
+  width               : 10.62%;
+  position            : absolute;
+  margin              : 0;
+  left                : 245px;
+  font-family         : "HelveticaNeueLTStd-MdCn", Helvetica, Arial, serif;
+  font-size           : 44.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 53.0px;
+}
+.bp1-aboutus .bp1-navigation-header-desktop-hd {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 120px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-aboutus .bp1-navigation-header-desktop-hd .bp1-navigation-background {
+  background          : rgba(20, 20, 20, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-aboutus .bp1-navigation-header-desktop-hd .bp1-navigation-buttons {
+  /* Flexbox */
+  display: flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : center;
+  background          : rgba(255, 255, 255, 0.0);
+  right               : 80px;
+  top                 : 42.50%;
+  height              : 16.67%;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+}
+.bp1-aboutus .bp1-navigation-header-desktop-hd .bp1-navigation-buttons .bp1-cro-services-standard {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : 20px;
+  margin              : 0;
+  width               : 126px;
+}
+.bp1-aboutus .bp1-navigation-header-desktop-hd .bp1-navigation-buttons .bp1-cro-services-standard .bp1-cro-services {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 101.59%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp1-aboutus .bp1-navigation-header-desktop-hd .bp1-navigation-buttons .bp1-about-us-standard {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : 20px;
+  margin              : 0 0 0 64px;
+  width               : 84px;
+}
+.bp1-aboutus .bp1-navigation-header-desktop-hd .bp1-navigation-buttons .bp1-about-us-standard .bp1-label8 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 102.38%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(245, 165, 35, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp1-aboutus .bp1-navigation-header-desktop-hd .bp1-navigation-buttons .bp1-contact-standard {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : 20px;
+  margin              : 0 0 0 64px;
+  width               : 72px;
+}
+.bp1-aboutus .bp1-navigation-header-desktop-hd .bp1-navigation-buttons .bp1-contact-standard .bp1-contact {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 102.78%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp1-aboutus .bp1-navigation-header-desktop-hd .bp1-atlas-logo {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 20.83%;
+  height              : 71px;
+  width               : 318px;
+  position            : absolute;
+  margin              : 0;
+  left                : 80px;
+}
+.bp1-aboutus .bp1-navigation-header-desktop-hd .bp1-atlas-logo .bp1-atlas-logo-maximum-resolution-refined {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 71px;
+  width               : 318px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-aboutus .bp1-footer-hd {
+  background          : rgba(255, 255, 255, 0.0);
+  bottom              : 0px;
+  height              : 120px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-aboutus .bp1-footer-hd .bp1-image1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp1-aboutus .bp1-footer-hd .bp1-a2018-atlas-genomic {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 51.67%;
+  height              : 20.00%;
+  width               : 19.79%;
+  position            : absolute;
+  margin              : 0;
+  left                : 244px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp1-aboutus .bp1-footer-hd .bp1-links {
+  /* Flexbox */
+  display: flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : flex-end;
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 30px;
+  height              : 20.00%;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 244px;
+}
+.bp1-aboutus .bp1-footer-hd .bp1-links .bp1-careers {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+  text-decoration     : underline;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.bp2-screen10 {
+  width               : 100%;
+  min-width           : 1024px;
+  height              : 100vh;
+  min-height          : 1488px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background          : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp2-screen10 .bp2-meet-the-team-frame {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 825px;
+  height              : 544px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen10 .bp2-meet-the-team-frame .bp2-background {
+  background          : rgba(224, 224, 224, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen10 .bp2-meet-the-team-frame .bp2-name-cards {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 608px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp2-screen10 .bp2-meet-the-team-frame .bp2-name-cards-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 40.99%;
+  align-items         : center;
+  height              : 248px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-screen10 .bp2-meet-the-team-frame .bp2-name-cards .bp2-name-card {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 120px;
+  width               : 296px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen10 .bp2-meet-the-team-frame .bp2-name-cards .bp2-name-card .bp2-view1 {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 120px;
+  width               : 296px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen10 .bp2-meet-the-team-frame .bp2-name-cards .bp2-name-card .bp2-title {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 53px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(21, 21, 21, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.bp2-screen10 .bp2-meet-the-team-frame .bp2-name-cards .bp2-name-card .bp2-name {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 22px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(249, 33, 75, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.bp2-screen10 .bp2-meet-the-team-frame .bp2-name-cards .bp2-view2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 120px;
+  width               : 296px;
+  position            : absolute;
+  margin              : 0;
+  left                : 312px;
+}
+.bp2-screen10 .bp2-meet-the-team-frame .bp2-name-cards .bp2-view2 .bp2-view3 {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 120px;
+  width               : 296px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen10 .bp2-meet-the-team-frame .bp2-name-cards .bp2-view2 .bp2-label1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 54px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 83px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(21, 21, 21, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.bp2-screen10 .bp2-meet-the-team-frame .bp2-name-cards .bp2-view2 .bp2-label2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 22px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 66px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(249, 33, 75, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.bp2-screen10 .bp2-meet-the-team-frame .bp2-name-cards .bp2-view4 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 128px;
+  height              : 120px;
+  width               : 296px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen10 .bp2-meet-the-team-frame .bp2-name-cards .bp2-view4 .bp2-view5 {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 120px;
+  width               : 296px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen10 .bp2-meet-the-team-frame .bp2-name-cards .bp2-view4 .bp2-label3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 54px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 53px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(21, 21, 21, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.bp2-screen10 .bp2-meet-the-team-frame .bp2-name-cards .bp2-view4 .bp2-label4 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 22px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 74px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(249, 33, 75, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.bp2-screen10 .bp2-meet-the-team-frame .bp2-name-cards .bp2-view6 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 128px;
+  height              : 120px;
+  width               : 296px;
+  position            : absolute;
+  margin              : 0;
+  left                : 312px;
+}
+.bp2-screen10 .bp2-meet-the-team-frame .bp2-name-cards .bp2-view6 .bp2-view7 {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 120px;
+  width               : 296px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen10 .bp2-meet-the-team-frame .bp2-name-cards .bp2-view6 .bp2-label5 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 53px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(21, 21, 21, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.bp2-screen10 .bp2-meet-the-team-frame .bp2-name-cards .bp2-view6 .bp2-label6 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 22px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 80px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(249, 33, 75, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.bp2-screen10 .bp2-meet-the-team-frame .bp2-text-block {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 624px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp2-screen10 .bp2-meet-the-team-frame .bp2-text-block-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 13.05%;
+  align-items         : center;
+  height              : 20.22%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp2-screen10 .bp2-meet-the-team-frame .bp2-text-block .bp2-atlas-genomics-pers {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 34.55%;
+  height              : 65.45%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp2-screen10 .bp2-meet-the-team-frame .bp2-text-block .bp2-meet-the-atlas-genom {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 25.45%;
+  width               : 61.54%;
+  position            : absolute;
+  margin              : 0;
+  left                : 19.39%;
+  font-family         : "HelveticaNeueLTStd-MdCn", Helvetica, Arial, serif;
+  font-size           : 28.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : center;
+  line-height         : 34.0px;
+}
+.bp2-screen10 .bp2-trusted-partner-frame {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 198px;
+  height              : 628px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen10 .bp2-trusted-partner-frame .bp2-rectangle {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen10 .bp2-trusted-partner-frame .bp2-view8 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 13.69%;
+  height              : 71.66%;
+  width               : 472px;
+  position            : absolute;
+  margin              : 0;
+  left                : 528px;
+}
+.bp2-screen10 .bp2-trusted-partner-frame .bp2-view8 .bp2-atlas-genomics-is-a {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 9.33%;
+  height              : 90.67%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp2-screen10 .bp2-trusted-partner-frame .bp2-view8 .bp2-about-us-headline {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 7.11%;
+  width               : 68.01%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-MdCn", Helvetica, Arial, serif;
+  font-size           : 28.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : left;
+  line-height         : 34.0px;
+}
+.bp2-screen10 .bp2-trusted-partner-frame .bp2-exterior {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 13.06%;
+  height              : 401px;
+  width               : 504px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen10 .bp2-section-header-desktop-non-hd {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 102px;
+  height              : 96px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen10 .bp2-section-header-desktop-non-hd .bp2-view9 {
+  background          : rgba(24, 169, 144, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen10 .bp2-section-header-desktop-non-hd .bp2-label7 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 22.92%;
+  height              : 45.83%;
+  width               : 14.94%;
+  position            : absolute;
+  margin              : 0;
+  left                : 154px;
+  font-family         : "HelveticaNeueLTStd-MdCn", Helvetica, Arial, serif;
+  font-size           : 44.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 53.0px;
+}
+.bp2-screen10 .bp2-navigation-header-dektop-non-hd {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 102px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen10 .bp2-navigation-header-dektop-non-hd .bp2-navigation-background {
+  background          : rgba(20, 20, 20, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen10 .bp2-navigation-header-dektop-non-hd .bp2-navigation-buttons {
+  /* Flexbox */
+  display: flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : center;
+  background          : rgba(255, 255, 255, 0.0);
+  right               : 32px;
+  top                 : 41.18%;
+  height              : 19.61%;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+}
+.bp2-screen10 .bp2-navigation-header-dektop-non-hd .bp2-navigation-buttons .bp2-cro-services {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp2-screen10 .bp2-navigation-header-dektop-non-hd .bp2-navigation-buttons .bp2-about-us {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 64px;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(245, 165, 35, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp2-screen10 .bp2-navigation-header-dektop-non-hd .bp2-navigation-buttons .bp2-contact {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 64px;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp2-screen10 .bp2-navigation-header-dektop-non-hd .bp2-atlas-logo {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 15.69%;
+  height              : 71px;
+  width               : 318px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+}
+.bp2-screen10 .bp2-navigation-header-dektop-non-hd .bp2-atlas-logo .bp2-atlas-logo-maximum-resolution-refined {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 71px;
+  width               : 318px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen10 .bp2-footer-non-hd {
+  background          : rgba(255, 255, 255, 0.0);
+  bottom              : 0px;
+  height              : 120px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen10 .bp2-footer-non-hd .bp2-view10 {
+  background          : rgba(127, 127, 127, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp2-screen10 .bp2-footer-non-hd .bp2-a2018-atlas-genomic {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 53.33%;
+  height              : 20.00%;
+  width               : 27.83%;
+  position            : absolute;
+  margin              : 0;
+  left                : 156px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp2-screen10 .bp2-footer-non-hd .bp2-links {
+  /* Flexbox */
+  display: flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : flex-end;
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 32px;
+  height              : 20.00%;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 156px;
+}
+.bp2-screen10 .bp2-footer-non-hd .bp2-links .bp2-careers {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+  text-decoration     : underline;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.bp3-screen11 {
+  width               : 100%;
+  min-width           : 768px;
+  height              : 100vh;
+  min-height          : 1433px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background          : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp3-screen11 .bp3-meet-the-team-frame {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 828px;
+  height              : 509px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen11 .bp3-meet-the-team-frame .bp3-background {
+  background          : rgba(224, 224, 224, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen11 .bp3-meet-the-team-frame .bp3-name-cards {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 608px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp3-screen11 .bp3-meet-the-team-frame .bp3-name-cards-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 36.94%;
+  align-items         : center;
+  height              : 248px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-screen11 .bp3-meet-the-team-frame .bp3-name-cards .bp3-name-card {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 120px;
+  width               : 296px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen11 .bp3-meet-the-team-frame .bp3-name-cards .bp3-name-card .bp3-view1 {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 120px;
+  width               : 296px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen11 .bp3-meet-the-team-frame .bp3-name-cards .bp3-name-card .bp3-title {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 53px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(21, 21, 21, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.bp3-screen11 .bp3-meet-the-team-frame .bp3-name-cards .bp3-name-card .bp3-name {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 22px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(249, 33, 75, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.bp3-screen11 .bp3-meet-the-team-frame .bp3-name-cards .bp3-view2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 120px;
+  width               : 296px;
+  position            : absolute;
+  margin              : 0;
+  left                : 312px;
+}
+.bp3-screen11 .bp3-meet-the-team-frame .bp3-name-cards .bp3-view2 .bp3-view3 {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 120px;
+  width               : 296px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen11 .bp3-meet-the-team-frame .bp3-name-cards .bp3-view2 .bp3-label1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 54px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 83px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(21, 21, 21, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.bp3-screen11 .bp3-meet-the-team-frame .bp3-name-cards .bp3-view2 .bp3-label2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 22px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 66px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(249, 33, 75, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.bp3-screen11 .bp3-meet-the-team-frame .bp3-name-cards .bp3-view4 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 128px;
+  height              : 120px;
+  width               : 296px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen11 .bp3-meet-the-team-frame .bp3-name-cards .bp3-view4 .bp3-view5 {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 120px;
+  width               : 296px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen11 .bp3-meet-the-team-frame .bp3-name-cards .bp3-view4 .bp3-label3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 54px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 53px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(21, 21, 21, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.bp3-screen11 .bp3-meet-the-team-frame .bp3-name-cards .bp3-view4 .bp3-label4 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 22px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 74px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(249, 33, 75, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.bp3-screen11 .bp3-meet-the-team-frame .bp3-name-cards .bp3-view6 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 128px;
+  height              : 120px;
+  width               : 296px;
+  position            : absolute;
+  margin              : 0;
+  left                : 312px;
+}
+.bp3-screen11 .bp3-meet-the-team-frame .bp3-name-cards .bp3-view6 .bp3-view7 {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 120px;
+  width               : 296px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen11 .bp3-meet-the-team-frame .bp3-name-cards .bp3-view6 .bp3-label5 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 53px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 42px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(21, 21, 21, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.bp3-screen11 .bp3-meet-the-team-frame .bp3-name-cards .bp3-view6 .bp3-label6 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 22px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 80px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(249, 33, 75, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.bp3-screen11 .bp3-meet-the-team-frame .bp3-text-block {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 624px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp3-screen11 .bp3-meet-the-team-frame .bp3-text-block-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 7.86%;
+  align-items         : center;
+  height              : 20.83%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp3-screen11 .bp3-meet-the-team-frame .bp3-text-block .bp3-atlas-genomics-pers {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 32.08%;
+  height              : 67.92%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp3-screen11 .bp3-meet-the-team-frame .bp3-text-block .bp3-meet-the-atlas-genom {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 22.64%;
+  width               : 44.07%;
+  position            : absolute;
+  margin              : 0;
+  left                : 28.21%;
+  font-family         : "HelveticaNeueLTStd-MdCn", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.bp3-screen11 .bp3-trusted-partner-frame {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 152px;
+  height              : 676px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen11 .bp3-trusted-partner-frame .bp3-rectangle {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen11 .bp3-trusted-partner-frame .bp3-view8 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 11.24%;
+  height              : 86.69%;
+  width               : 344px;
+  position            : absolute;
+  margin              : 0;
+  left                : 400px;
+}
+.bp3-screen11 .bp3-trusted-partner-frame .bp3-view8 .bp3-atlas-genomics-is-a {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 5.80%;
+  height              : 94.20%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp3-screen11 .bp3-trusted-partner-frame .bp3-view8 .bp3-about-us-headline {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 4.10%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-MdCn", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp3-screen11 .bp3-trusted-partner-frame .bp3-exterior {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 9.47%;
+  height              : 300px;
+  width               : 376px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen11 .bp3-section-header-tablet {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 88px;
+  height              : 64px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen11 .bp3-section-header-tablet .bp3-view9 {
+  background          : rgba(24, 169, 144, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen11 .bp3-section-header-tablet .bp3-label7 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 18.75%;
+  height              : 62.50%;
+  width               : 13.67%;
+  position            : absolute;
+  margin              : 0;
+  left                : 110px;
+  font-family         : "HelveticaNeueLTStd-MdCn", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 40.0px;
+}
+.bp3-screen11 .bp3-navigation-bar-tablet {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 88px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen11 .bp3-navigation-bar-tablet .bp3-view10 {
+  background          : rgba(20, 20, 20, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen11 .bp3-navigation-bar-tablet .bp3-atlas-logo-maximum-resolution-refined {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 20.45%;
+  height              : 48px;
+  width               : 216px;
+  position            : absolute;
+  margin              : 0;
+  left                : 32px;
+}
+.bp3-screen11 .bp3-navigation-bar-tablet .bp3-navigation-buttons {
+  /* Flexbox */
+  display: flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : center;
+  background          : rgba(255, 255, 255, 0.0);
+  right               : 32px;
+  top                 : 37.50%;
+  height              : 22.73%;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+}
+.bp3-screen11 .bp3-navigation-bar-tablet .bp3-navigation-buttons .bp3-cro-services {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp3-screen11 .bp3-navigation-bar-tablet .bp3-navigation-buttons .bp3-about-us {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 64px;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(245, 165, 35, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp3-screen11 .bp3-navigation-bar-tablet .bp3-navigation-buttons .bp3-contact {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 64px;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp3-screen11 .bp3-footer-tablet {
+  background          : rgba(255, 255, 255, 0.0);
+  bottom              : 0px;
+  height              : 96px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen11 .bp3-footer-tablet .bp3-view11 {
+  background          : rgba(127, 127, 127, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp3-screen11 .bp3-footer-tablet .bp3-a2018-atlas-genomic {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 54.17%;
+  height              : 25.00%;
+  width               : 37.11%;
+  position            : absolute;
+  margin              : 0;
+  left                : 110px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp3-screen11 .bp3-footer-tablet .bp3-links {
+  /* Flexbox */
+  display: flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : flex-end;
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 20.83%;
+  height              : 25.00%;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 110px;
+}
+.bp3-screen11 .bp3-footer-tablet .bp3-links .bp3-careers {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+  text-decoration     : underline;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.bp4-screen12 {
+  width               : 100%;
+  min-width           : 320px;
+  height              : 100vh;
+  min-height          : 2232px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background          : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp4-screen12 .bp4-meet-the-team-frame {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 1248px;
+  height              : 920px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen12 .bp4-meet-the-team-frame .bp4-background {
+  background          : rgba(224, 224, 224, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen12 .bp4-meet-the-team-frame .bp4-name-cards {
+  /* Flexbox */
+  display: flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : center;
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 288px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp4-screen12 .bp4-meet-the-team-frame .bp4-name-cards-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 26.96%;
+  align-items         : center;
+  height              : 608px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp4-screen12 .bp4-meet-the-team-frame .bp4-name-cards .bp4-view6 {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  margin              : 0;
+  flex                : 128;
+  width               : 288px;
+}
+.bp4-screen12 .bp4-meet-the-team-frame .bp4-name-cards .bp4-view6 .bp4-view7 {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen12 .bp4-meet-the-team-frame .bp4-name-cards .bp4-view6 .bp4-label5 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 41.41%;
+  height              : 10.94%;
+  width               : 57.64%;
+  position            : absolute;
+  margin              : 0;
+  left                : 20.83%;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(21, 21, 21, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.bp4-screen12 .bp4-meet-the-team-frame .bp4-name-cards .bp4-view6 .bp4-label6 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 10.94%;
+  height              : 18.75%;
+  width               : 76.39%;
+  position            : absolute;
+  margin              : 0;
+  left                : 11.46%;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(249, 33, 75, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.bp4-screen12 .bp4-meet-the-team-frame .bp4-name-cards .bp4-name-card {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  margin              : 32px 0 0 0;
+  flex                : 128;
+  width               : 288px;
+}
+.bp4-screen12 .bp4-meet-the-team-frame .bp4-name-cards .bp4-name-card .bp4-view1 {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen12 .bp4-meet-the-team-frame .bp4-name-cards .bp4-name-card .bp4-title {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 42.19%;
+  height              : 10.94%;
+  width               : 45.14%;
+  position            : absolute;
+  margin              : 0;
+  left                : 27.08%;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(21, 21, 21, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.bp4-screen12 .bp4-meet-the-team-frame .bp4-name-cards .bp4-name-card .bp4-name {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 10.94%;
+  height              : 18.75%;
+  width               : 56.94%;
+  position            : absolute;
+  margin              : 0;
+  left                : 21.18%;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(249, 33, 75, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.bp4-screen12 .bp4-meet-the-team-frame .bp4-name-cards .bp4-view2 {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  margin              : 32px 0 0 0;
+  flex                : 128;
+  width               : 288px;
+}
+.bp4-screen12 .bp4-meet-the-team-frame .bp4-name-cards .bp4-view2 .bp4-view3 {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen12 .bp4-meet-the-team-frame .bp4-name-cards .bp4-view2 .bp4-label1 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 42.19%;
+  height              : 10.94%;
+  width               : 66.32%;
+  position            : absolute;
+  margin              : 0;
+  left                : 16.67%;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(21, 21, 21, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.bp4-screen12 .bp4-meet-the-team-frame .bp4-name-cards .bp4-view2 .bp4-label2 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 10.94%;
+  height              : 18.75%;
+  width               : 51.39%;
+  position            : absolute;
+  margin              : 0;
+  left                : 23.96%;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(249, 33, 75, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.bp4-screen12 .bp4-meet-the-team-frame .bp4-name-cards .bp4-view4 {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  margin              : 32px 0 0 0;
+  flex                : 128;
+  width               : 288px;
+}
+.bp4-screen12 .bp4-meet-the-team-frame .bp4-name-cards .bp4-view4 .bp4-view5 {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen12 .bp4-meet-the-team-frame .bp4-name-cards .bp4-view4 .bp4-label3 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 41.41%;
+  height              : 10.94%;
+  width               : 73.61%;
+  position            : absolute;
+  margin              : 0;
+  left                : 12.85%;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(21, 21, 21, 1.0);
+  text-align          : center;
+  line-height         : 17.0px;
+}
+.bp4-screen12 .bp4-meet-the-team-frame .bp4-name-cards .bp4-view4 .bp4-label4 {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 10.94%;
+  height              : 18.75%;
+  width               : 47.22%;
+  position            : absolute;
+  margin              : 0;
+  left                : 26.04%;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 24.0px;
+  color               : rgba(249, 33, 75, 1.0);
+  text-align          : center;
+  line-height         : 29.0px;
+}
+.bp4-screen12 .bp4-meet-the-team-frame .bp4-text-block {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 288px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp4-screen12 .bp4-meet-the-team-frame .bp4-text-block-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 3.91%;
+  align-items         : center;
+  height              : 21.52%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp4-screen12 .bp4-meet-the-team-frame .bp4-text-block .bp4-atlas-genomics-pers {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 17.17%;
+  height              : 82.83%;
+  width               : 100.69%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp4-screen12 .bp4-meet-the-team-frame .bp4-text-block .bp4-meet-the-atlas-genom {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 95.49%;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  font-family         : "HelveticaNeueLTStd-MdCn", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : center;
+  line-height         : 24.0px;
+}
+.bp4-screen12 .bp4-meet-the-team-frame .bp4-text-block .bp4-meet-the-atlas-genom-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 12.12%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp4-screen12 .bp4-trusted-partner-frame {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 176px;
+  height              : 1072px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen12 .bp4-trusted-partner-frame .bp4-rectangle {
+  background          : rgba(255, 255, 255, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen12 .bp4-trusted-partner-frame .bp4-view8 {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 288px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp4-screen12 .bp4-trusted-partner-frame .bp4-view8-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 28.73%;
+  align-items         : center;
+  height              : 65.86%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp4-screen12 .bp4-trusted-partner-frame .bp4-view8 .bp4-atlas-genomics-is-a {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 4.82%;
+  height              : 95.18%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp4-screen12 .bp4-trusted-partner-frame .bp4-view8 .bp4-about-us-headline {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 3.40%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  font-family         : "HelveticaNeueLTStd-MdCn", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp4-screen12 .bp4-trusted-partner-frame .bp4-exterior {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 3.73%;
+  height              : 242px;
+  width               : 304px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen12 .bp4-section-title-mobile {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 120px;
+  height              : 56px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen12 .bp4-section-title-mobile .bp4-view9 {
+  background          : rgba(24, 169, 144, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen12 .bp4-section-title-mobile .bp4-section-title {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 32.81%;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  font-family         : "HelveticaNeueLTStd-MdCn", Helvetica, Arial, serif;
+  font-size           : 30.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 40.0px;
+}
+.bp4-screen12 .bp4-section-title-mobile .bp4-section-title-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 14.29%;
+  align-items         : center;
+  height              : 71.43%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp4-screen12 .bp4-navigation-header-mobile {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 120px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen12 .bp4-navigation-header-mobile .bp4-navigation-background {
+  background          : rgba(20, 20, 20, 1.0);
+  top                 : 53.33%;
+  height              : 46.67%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen12 .bp4-navigation-header-mobile .bp4-links {
+  /* Flexbox */
+  display: flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : center;
+  background          : rgba(255, 255, 255, 0.0);
+  width               : auto;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp4-screen12 .bp4-navigation-header-mobile .bp4-links-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 71.67%;
+  align-items         : center;
+  height              : 11.67%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp4-screen12 .bp4-navigation-header-mobile .bp4-links .bp4-cro-services {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.bp4-screen12 .bp4-navigation-header-mobile .bp4-links .bp4-about-us {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 32px;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(245, 166, 35, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.bp4-screen12 .bp4-navigation-header-mobile .bp4-links .bp4-contact {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0 0 0 32px;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 17.0px;
+}
+.bp4-screen12 .bp4-navigation-header-mobile .bp4-logo {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 53.33%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen12 .bp4-navigation-header-mobile .bp4-logo .bp4-logo-background {
+  background          : rgba(20, 20, 20, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen12 .bp4-navigation-header-mobile .bp4-logo .bp4-atlas-logo-mobile {
+  background          : rgba(255, 255, 255, 0.0);
+  width               : 216px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+}
+.bp4-screen12 .bp4-navigation-header-mobile .bp4-logo .bp4-atlas-logo-mobile-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 12.50%;
+  align-items         : center;
+  height              : 48px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp4-screen12 .bp4-navigation-header-mobile .bp4-logo .bp4-atlas-logo-mobile .bp4-atlas-logo-maximum-resolution-refined {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 0px;
+  height              : 48px;
+  width               : 216px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen12 .bp4-footer-mobile {
+  background          : rgba(255, 255, 255, 0.0);
+  bottom              : 0px;
+  height              : 64px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen12 .bp4-footer-mobile .bp4-view10 {
+  background          : rgba(127, 127, 127, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+}
+.bp4-screen12 .bp4-footer-mobile .bp4-a2018-atlas-genomic {
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 46.88%;
+  height              : 37.50%;
+  width               : 89.06%;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp4-screen12 .bp4-footer-mobile .bp4-stack-view1 {
+  /* Flexbox */
+  display: flex;
+  justify-content     : flex-start;
+  flex-direction      : row;
+  align-items         : flex-end;
+  background          : rgba(255, 255, 255, 0.0);
+  top                 : 9.38%;
+  height              : 37.50%;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 16px;
+}
+.bp4-screen12 .bp4-footer-mobile .bp4-stack-view1 .bp4-careers {
+  background          : rgba(255, 255, 255, 0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size           : 14.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+  text-decoration     : underline;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@media screen and (max-width: 767px) {
+  .bp4-screen12 {
+    display             : block;
+  }
+  .bp3-screen11 {
+    display             : none;
+  }
+  .bp2-screen10 {
+    display             : none;
+  }
+  .bp1-aboutus {
+    display             : none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .bp4-screen12 {
+    display             : none;
+  }
+  .bp3-screen11 {
+    display             : block;
+  }
+  .bp2-screen10 {
+    display             : none;
+  }
+  .bp1-aboutus {
+    display             : none;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .bp4-screen12 {
+    display             : none;
+  }
+  .bp3-screen11 {
+    display             : none;
+  }
+  .bp2-screen10 {
+    display             : block;
+  }
+  .bp1-aboutus {
+    display             : none;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .bp4-screen12 {
+    display             : none;
+  }
+  .bp3-screen11 {
+    display             : none;
+  }
+  .bp2-screen10 {
+    display             : none;
+  }
+  .bp1-aboutus {
+    display             : block;
+  }
+}
