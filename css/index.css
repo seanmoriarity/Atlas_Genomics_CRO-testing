@@ -2373,30 +2373,24 @@ div {
   left                : 0;
 }
 
-.bp4-screen6 .bp4-interview-frame .bp4-procartaplex-immune .bp4-procartaplex-immuno {
-  background          : rgba(255, 255, 255, 0.0);
-  width               : 260px;
-  height              : 100%;
-  pointer-events      : auto;
-  position            : relative;
+.bp4-screen6 .bp4-interview-frame .bp4-product-column {
+  background: #fff;
+  margin: 32px auto 0px auto;
+  padding: 16px 16px 16px 16px;
   font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
   font-size           : 14.0px;
   color               : rgba(62, 62, 62, 1.0);
-  text-align          : left;
   line-height         : 24.0px;
 }
-.bp4-screen6 .bp4-interview-frame .bp4-procartaplex-immune .bp4-procartaplex-immuno-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 52.73%;
-  align-items         : center;
-  height              : 37.89%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
+
+.bp4-screen6 .bp4-interview-frame .bp4-product-column .bp4-product-title {
+  font-family: "HelveticaNeueLTStd-Bd", Helvetica, Arial, serif;
+  text-align: center;
+  margin: 0px 32px 0px 32px;
+
 }
+
+
 .bp4-screen6 .bp4-interview-frame .bp4-procartaplex-immune .bp4-luminex {
   background          : rgba(255, 255, 255, 0.0);
   position            : relative;
@@ -2457,15 +2451,6 @@ div {
   display             : flex;
   left                : 0;
 }
-.bp4-screen6 .bp4-interview-frame .bp4-checkpoint-panel .bp4-view2 {
-  background          : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
 .bp4-screen6 .bp4-interview-frame .bp4-checkpoint-panel .bp4-the-procartaplex-imm {
   background          : rgba(255, 255, 255, 0.0);
   width               : 260px;
@@ -2490,11 +2475,10 @@ div {
   display             : flex;
   left                : 0;
 }
-.bp4-screen6 .bp4-interview-frame .bp4-checkpoint-panel .bp4-product {
-  background          : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  pointer-events      : auto;
-  width               : 208px;
+.bp4-screen6 .bp4-interview-frame .bp4-product-column .bp4-product-image {
+  width: 100%;
+  max-width: 100%;
+  margin: 0px auto 0px auto;
 }
 .bp4-screen6 .bp4-interview-frame .bp4-checkpoint-panel .bp4-product-layout-container {
   pointer-events      : none;
@@ -2632,7 +2616,7 @@ div {
   margin              : 0;
   left                : 0px;
 }
-.bp4-screen6 .bp4-interview-frame .bp4-a1502379841263 {
+.bp4-screen6 .bp4-interview-frame .bp4-pathogens {
   height: 224px;
   width: 100%;
   object-fit: cover;
