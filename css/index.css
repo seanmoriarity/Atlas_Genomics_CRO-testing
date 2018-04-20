@@ -2339,22 +2339,19 @@ div {
   line-height         : 24.0px;
 }
 .bp4-screen6 .bp4-interview-frame {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 664px;
-  height              : 1824px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp4-screen6 .bp4-interview-frame .bp4-view1 {
-  background          : rgba(20, 20, 20, 1.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  background          : #1a1a1a;
+  /* margin: 0px auto 0px auto;
+  padding: 8px 16px 44px 16px;
+  min-width: 320px;
+  max-width: 502px; */
+
+
+  /* top                 : 664px; */
+  /* height              : 1824px; */
+  /* width               : 100%; */
+  /* position            : absolute; */
+  /* margin              : 0; */
+  /* left                : 0px; */
 }
 .bp4-screen6 .bp4-interview-frame .bp4-procartaplex-immune {
   background          : rgba(255, 255, 255, 0.0);
@@ -2375,15 +2372,7 @@ div {
   display             : flex;
   left                : 0;
 }
-.bp4-screen6 .bp4-interview-frame .bp4-procartaplex-immune .bp4-rectangle8 {
-  background          : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
+
 .bp4-screen6 .bp4-interview-frame .bp4-procartaplex-immune .bp4-procartaplex-immuno {
   background          : rgba(255, 255, 255, 0.0);
   width               : 260px;
@@ -2575,18 +2564,29 @@ div {
   text-align          : left;
   line-height         : 24.0px;
 }
-.bp4-screen6 .bp4-interview-frame .bp4-view3 .bp4-head-of-society-for {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 18.27%;
+.bp4-screen6 .bp4-interview-frame .bp4-interview-column {
+  margin: 0px auto 0px auto;
+  padding: 8px 16px 44px 16px;
+  max-width: 502px;
+  font-family: "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
+  font-size: 14.0px;
+  color: #fff;
+  line-height: 24.0px;
+}
+.bp4-screen6 .bp4-interview-frame .bp4-interview-column a {
+  font-family: "HelveticaNeueLTStd-Bd", Helvetica, Arial, serif;
+  color: #fff;
+  text-decoration: none;
+}
+.bp4-screen6 .bp4-interview-frame .bp4-interview-column a:hover {
+  text-decoration: underline;
+}
+.bp4-screen6 .bp4-interview-frame .bp4-interview-headline {
   width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  margin-top: 16px;
   font-family         : "HelveticaNeueLTStd-MdCn", Helvetica, Arial, serif;
   font-size           : 20.0px;
   color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
   line-height         : 24.0px;
 }
 .bp4-screen6 .bp4-interview-frame .bp4-view3 .bp4-thermo-fisher-scient {
@@ -2632,34 +2632,35 @@ div {
   margin              : 0;
   left                : 0px;
 }
-.bp4-screen6 .bp4-interview-frame .bp4-cellular-image .bp4-a1502379841263 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 111.61%;
-  width               : 221.88%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+.bp4-screen6 .bp4-interview-frame .bp4-a1502379841263 {
+  height: 224px;
+  width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
 }
-/* .bp4-screen6 .bp4-hero-frame {
-  width               : 100%;
-  margin              : 0;
-} */
 
 /* Code below this line. */
 .bp4-screen6 .bp4-hero-frame .bp4-hero-column {
-  background-color: #888;
+  /* background-color: #888; */
   margin: 0px auto 0px auto;
-  padding: 8px 16px 8px 16px;
-  min-width: 320px;
+  padding: 8px 16px 44px 16px;
   max-width: 502px;
   font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
   font-size           : 14.0px;
   color               : rgba(20, 20, 20, 1.0);
   line-height         : 24.0px;
 }
+.bp4-screen6 .bp4-hero-frame .bp4-hero-column a {
+  font-family: "HelveticaNeueLTStd-Bd", Helvetica, Arial, serif;
+  color               : rgba(20, 20, 20, 1.0);
+  text-decoration: none;
+}
+.bp4-screen6 .bp4-hero-frame .bp4-hero-column a:hover {
+  text-decoration: underline;
+}
 .bp4-screen6 .bp4-hero-frame .bp4-hero-headline {
 
+  margin-top: 16px;
   font-family         : "HelveticaNeueLTStd-MdCn", Helvetica, Arial, serif;
   font-size           : 20.0px;
   color               : rgba(20, 20, 20, 1.0);
@@ -2668,6 +2669,8 @@ div {
 .bp4-screen6 .bp4-hero-frame .bp4-hero-photo {
   vertical-align: bottom;
   width               : 100%;
+  object-fit: cover;
+  max-height: 225px;
 }
 /* Code above this line. */
 
