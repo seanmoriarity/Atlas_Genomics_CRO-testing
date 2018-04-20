@@ -2168,7 +2168,7 @@ div {
 .bp4-screen6 {
   width               : 100%;
   min-width           : 320px;
-  min-height          : 3032px;
+  /* min-height          : 3032px; */
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -2181,25 +2181,14 @@ div {
   -webkit-text-size-adjust: none;
 }
 .bp4-screen6 .bp4-footer-mobile {
-  background          : rgba(255, 255, 255, 0.0);
+  /* margin-top: 64px; */
+  background          : rgba(127, 127, 127, 1.0);
   bottom              : 0px;
   height              : 64px;
   width               : 100%;
   position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp4-screen6 .bp4-footer-mobile .bp4-background {
-  background          : rgba(127, 127, 127, 1.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
 }
 .bp4-screen6 .bp4-footer-mobile .bp4-a2018-atlas-genomic {
-  background          : rgba(255, 255, 255, 0.0);
   top                 : 46.88%;
   height              : 37.50%;
   width               : 89.06%;
@@ -2255,19 +2244,15 @@ div {
   color: rgba(20, 20, 20, 1.0);
   line-height: 24.0px;
 }
-.bp4-screen6 .bp4-partner-frame .bp4-partner-link {
+.bp4-screen6 .bp4-partner-frame .bp4-partner-column a {
 
-  /* top                 : 78.76%; */
-  /* height              : 21.24%; */
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
   font-family         : "HelveticaNeueLTStd-Bd", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(61, 61, 61, 1.0);
-  text-align          : left;
-  line-height         : 24.0px;
+  color               : rgba(20, 20, 20, 1.0);
+  text-decoration: none;
+}
+
+.bp4-screen6 .bp4-partner-frame .bp4-partner-column a:hover {
+  text-decoration: underline;
 }
 .bp4-screen6 .bp4-partner-frame .bp4-partner-headline {
   margin-top: 16px;
@@ -2276,41 +2261,8 @@ div {
   color               : rgba(20, 20, 20, 1.0);
   line-height         : 24.0px;
 }
-.bp4-screen6 .bp4-partner-frame .bp4-consultation-text {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 18.58%;
-  height              : 53.10%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(20, 20, 20, 1.0);
-  text-align          : left;
-  line-height         : 24.0px;
-}
 .bp4-screen6 .bp4-interview-frame {
   background          : #1a1a1a;
-}
-.bp4-screen6 .bp4-interview-frame .bp4-procartaplex-immune {
-  background          : rgba(255, 255, 255, 0.0);
-  width               : 288px;
-  height              : 100%;
-  pointer-events      : auto;
-  position            : relative;
-}
-.bp4-screen6 .bp4-interview-frame .bp4-procartaplex-immune-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 70.18%;
-  align-items         : center;
-  height              : 28.07%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
 }
 
 .bp4-screen6 .bp4-interview-frame .bp4-product-column {
@@ -2331,163 +2283,13 @@ div {
 }
 
 
-.bp4-screen6 .bp4-interview-frame .bp4-procartaplex-immune .bp4-luminex {
-  background          : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  pointer-events      : auto;
-  width               : 208px;
-}
-.bp4-screen6 .bp4-interview-frame .bp4-procartaplex-immune .bp4-luminex-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 14.06%;
-  align-items         : center;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.bp4-screen6 .bp4-interview-frame .bp4-procartaplex-immune .bp4-label1 {
-  background          : rgba(255, 255, 255, 0.0);
-  width               : 212px;
-  height              : 100%;
-  pointer-events      : auto;
-  position            : relative;
-  font-family         : "HelveticaNeueLTStd-Bd", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(63, 63, 63, 1.0);
-  text-align          : center;
-  line-height         : 24.0px;
-}
-.bp4-screen6 .bp4-interview-frame .bp4-procartaplex-immune .bp4-label1-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 2.73%;
-  align-items         : center;
-  height              : 9.38%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.bp4-screen6 .bp4-interview-frame .bp4-checkpoint-panel {
-  background          : rgba(255, 255, 255, 0.0);
-  width               : 288px;
-  height              : 100%;
-  pointer-events      : auto;
-  position            : relative;
-}
-.bp4-screen6 .bp4-interview-frame .bp4-checkpoint-panel-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 36.84%;
-  align-items         : center;
-  height              : 31.58%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.bp4-screen6 .bp4-interview-frame .bp4-checkpoint-panel .bp4-the-procartaplex-imm {
-  background          : rgba(255, 255, 255, 0.0);
-  width               : 260px;
-  height              : 100%;
-  pointer-events      : auto;
-  position            : relative;
-  font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(62, 62, 62, 1.0);
-  text-align          : left;
-  line-height         : 24.0px;
-}
-.bp4-screen6 .bp4-interview-frame .bp4-checkpoint-panel .bp4-the-procartaplex-imm-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 41.32%;
-  align-items         : center;
-  height              : 50.00%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
 .bp4-screen6 .bp4-interview-frame .bp4-product-column .bp4-product-image {
   width: 100%;
   max-width: 100%;
   margin: 0px auto 0px auto;
 }
-.bp4-screen6 .bp4-interview-frame .bp4-checkpoint-panel .bp4-product-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 12.50%;
-  align-items         : center;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.bp4-screen6 .bp4-interview-frame .bp4-checkpoint-panel .bp4-procartaplex-human-i {
-  background          : rgba(255, 255, 255, 0.0);
-  width               : 212px;
-  height              : 100%;
-  pointer-events      : auto;
-  position            : relative;
-  font-family         : "HelveticaNeueLTStd-Bd", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(63, 63, 63, 1.0);
-  text-align          : center;
-  line-height         : 24.0px;
-}
-.bp4-screen6 .bp4-interview-frame .bp4-checkpoint-panel .bp4-procartaplex-human-i-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 2.43%;
-  align-items         : center;
-  height              : 8.33%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.bp4-screen6 .bp4-interview-frame .bp4-view3 {
-  background          : rgba(255, 255, 255, 0.0);
-  width               : 288px;
-  height              : 100%;
-  pointer-events      : auto;
-  position            : relative;
-}
-.bp4-screen6 .bp4-interview-frame .bp4-view3-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 12.94%;
-  align-items         : center;
-  height              : 21.60%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.bp4-screen6 .bp4-interview-frame .bp4-view3 .bp4-label2 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 87.82%;
-  height              : 12.18%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  font-family         : "HelveticaNeueLTStd-Bd", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 24.0px;
-}
+
+
 .bp4-screen6 .bp4-interview-frame .bp4-interview-column {
   margin: 0px auto 0px auto;
   padding: 8px 16px 44px 16px;
