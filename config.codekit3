@@ -7,7 +7,7 @@
 		"uuidString": "1D9272A3-FBCA-4312-A232-47845C90F2A9"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/aboutus.html": {
 		"cB": 0,
@@ -42,9 +42,9 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/css\/aboutus-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
 	"\/css\/careers.css": {
@@ -52,9 +52,9 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/css\/careers-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
 	"\/css\/contact.css": {
@@ -62,19 +62,9 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/css\/contact-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/css\/croservices-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/croservices-min-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
 	"\/css\/croservices.css": {
@@ -82,9 +72,9 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/css\/croservices-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
 	"\/css\/index.css": {
@@ -92,9 +82,9 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/css\/index-min.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 3
 		},
 	"\/fonts\/HelveticaNeueLTStd-Bd.otf": {
@@ -139,6 +129,7 @@
 	"\/img\/aboutusexterior1@2x.jpg": {
 		"ft": 16384,
 		"iS": 220013,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/aboutusexterior1@2x.jpg",
 		"oF": 0,
@@ -149,6 +140,7 @@
 	"\/img\/aboutusexterior2@2x.jpg": {
 		"ft": 16384,
 		"iS": 135635,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/aboutusexterior2@2x.jpg",
 		"oF": 0,
@@ -159,6 +151,7 @@
 	"\/img\/aboutusexterior3@2x.jpg": {
 		"ft": 16384,
 		"iS": 94900,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/aboutusexterior3@2x.jpg",
 		"oF": 0,
@@ -169,6 +162,7 @@
 	"\/img\/aboutusexterior@2x.jpg": {
 		"ft": 16384,
 		"iS": 258808,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/aboutusexterior@2x.jpg",
 		"oF": 0,
@@ -201,6 +195,7 @@
 	"\/img\/careersbitmap1@2x.jpg": {
 		"ft": 16384,
 		"iS": 339686,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/careersbitmap1@2x.jpg",
 		"oF": 0,
@@ -211,6 +206,7 @@
 	"\/img\/careersbitmap2@2x.jpg": {
 		"ft": 16384,
 		"iS": 179505,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/careersbitmap2@2x.jpg",
 		"oF": 0,
@@ -254,6 +250,7 @@
 	"\/img\/careersworkers@2x.jpg": {
 		"ft": 16384,
 		"iS": 74041,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/careersworkers@2x.jpg",
 		"oF": 0,
@@ -308,6 +305,7 @@
 	"\/img\/croservicescroservicesphoto1@2x.jpg": {
 		"ft": 16384,
 		"iS": 162871,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/croservicescroservicesphoto1@2x.jpg",
 		"oF": 0,
@@ -318,6 +316,7 @@
 	"\/img\/croservicescroservicesphoto2@2x.jpg": {
 		"ft": 16384,
 		"iS": 114452,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/croservicescroservicesphoto2@2x.jpg",
 		"oF": 0,
@@ -328,6 +327,7 @@
 	"\/img\/croservicescroservicesphoto3@2x.jpg": {
 		"ft": 16384,
 		"iS": 80781,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/croservicescroservicesphoto3@2x.jpg",
 		"oF": 0,
@@ -338,6 +338,7 @@
 	"\/img\/croservicescroservicesphoto@2x.jpg": {
 		"ft": 16384,
 		"iS": 193718,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/croservicescroservicesphoto@2x.jpg",
 		"oF": 0,
@@ -359,6 +360,7 @@
 	"\/img\/index15023798412631@2x.jpg": {
 		"ft": 16384,
 		"iS": 195629,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/index15023798412631@2x.jpg",
 		"oF": 0,
@@ -369,6 +371,7 @@
 	"\/img\/index15023798412633@2x.jpg": {
 		"ft": 16384,
 		"iS": 187718,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/index15023798412633@2x.jpg",
 		"oF": 0,
@@ -379,6 +382,7 @@
 	"\/img\/index1502379841263@2x.jpg": {
 		"ft": 16384,
 		"iS": 182990,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/index1502379841263@2x.jpg",
 		"oF": 0,
@@ -389,6 +393,7 @@
 	"\/img\/index15059978123431@2x.jpg": {
 		"ft": 16384,
 		"iS": 47015,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/index15059978123431@2x.jpg",
 		"oF": 0,
@@ -399,6 +404,7 @@
 	"\/img\/index15059978123432@2x.jpg": {
 		"ft": 16384,
 		"iS": 40595,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/index15059978123432@2x.jpg",
 		"oF": 0,
@@ -442,6 +448,7 @@
 	"\/img\/indexepx11012170901650x600jpg6501@2x.jpg": {
 		"ft": 16384,
 		"iS": 70005,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/indexepx11012170901650x600jpg6501@2x.jpg",
 		"oF": 0,
@@ -452,6 +459,7 @@
 	"\/img\/indexepx11012170901650x600jpg6502@2x.jpg": {
 		"ft": 16384,
 		"iS": 39364,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/indexepx11012170901650x600jpg6502@2x.jpg",
 		"oF": 0,
@@ -462,6 +470,7 @@
 	"\/img\/indexepx11012170901650x600jpg650@2x.jpg": {
 		"ft": 16384,
 		"iS": 70174,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/indexepx11012170901650x600jpg650@2x.jpg",
 		"oF": 0,
@@ -472,6 +481,7 @@
 	"\/img\/indexherophoto1@2x.jpg": {
 		"ft": 16384,
 		"iS": 445183,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/indexherophoto1@2x.jpg",
 		"oF": 0,
@@ -482,6 +492,7 @@
 	"\/img\/indexherophoto2@2x.jpg": {
 		"ft": 16384,
 		"iS": 197734,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/indexherophoto2@2x.jpg",
 		"oF": 0,
@@ -492,6 +503,7 @@
 	"\/img\/indexherophoto3@2x.jpg": {
 		"ft": 16384,
 		"iS": 96990,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/indexherophoto3@2x.jpg",
 		"oF": 0,
@@ -502,6 +514,7 @@
 	"\/img\/indexherophoto@2x.jpg": {
 		"ft": 16384,
 		"iS": 470571,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/indexherophoto@2x.jpg",
 		"oF": 0,
@@ -512,6 +525,7 @@
 	"\/img\/indexlaboratoryinterior1@2x.jpg": {
 		"ft": 16384,
 		"iS": 294044,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/indexlaboratoryinterior1@2x.jpg",
 		"oF": 0,
@@ -522,6 +536,7 @@
 	"\/img\/indexlaboratoryinterior2@2x.jpg": {
 		"ft": 16384,
 		"iS": 193944,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/indexlaboratoryinterior2@2x.jpg",
 		"oF": 0,
@@ -532,6 +547,7 @@
 	"\/img\/indexlaboratoryinterior3@2x.jpg": {
 		"ft": 16384,
 		"iS": 99086,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/indexlaboratoryinterior3@2x.jpg",
 		"oF": 0,
@@ -542,6 +558,7 @@
 	"\/img\/indexlaboratoryinterior@2x.jpg": {
 		"ft": 16384,
 		"iS": 393243,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/indexlaboratoryinterior@2x.jpg",
 		"oF": 0,
@@ -609,7 +626,8 @@
 	"creationDate": 543205388,
 	"displayValue": "Atlas_Genomics_CRO",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-facepalm"
+	"iconImageName": "meme-facepalm",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2412,6 +2430,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {

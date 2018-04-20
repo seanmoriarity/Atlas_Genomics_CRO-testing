@@ -691,56 +691,56 @@ div {
 }
 @-webkit-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @-moz-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @-o-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
@@ -1419,56 +1419,56 @@ div {
 }
 @-webkit-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @-moz-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @-o-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
@@ -2111,56 +2111,56 @@ div {
 }
 @-webkit-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @-moz-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @-o-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
@@ -2168,7 +2168,6 @@ div {
 .bp4-screen6 {
   width               : 100%;
   min-width           : 320px;
-  height              : 100vh;
   min-height          : 3032px;
   position            : relative;
   overflow            : hidden;
@@ -2642,120 +2641,41 @@ div {
   margin              : 0;
   left                : 0px;
 }
-.bp4-screen6 .bp4-hero-frame {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 120px;
-  height              : 544px;
+/* .bp4-screen6 .bp4-hero-frame {
   width               : 100%;
-  position            : absolute;
   margin              : 0;
-  left                : 0px;
-}
-.bp4-screen6 .bp4-hero-frame .bp4-view4 {
-  background          : rgba(255, 255, 255, 1.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp4-screen6 .bp4-hero-frame .bp4-view5 {
-  background          : rgba(255, 255, 255, 0.0);
-  width               : 288px;
-  height              : 100%;
-  pointer-events      : auto;
-  position            : relative;
-}
-.bp4-screen6 .bp4-hero-frame .bp4-view5-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 37.50%;
-  align-items         : center;
-  height              : 54.78%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
-}
-.bp4-screen6 .bp4-hero-frame .bp4-view5 .bp4-label3 {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 91.95%;
-  height              : 8.05%;
-  width               : 85.42%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0.35%;
-  font-family         : "HelveticaNeueLTStd-Bd", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(61, 61, 61, 1.0);
-  text-align          : left;
-  line-height         : 24.0px;
-}
-.bp4-screen6 .bp4-hero-frame .bp4-view5 .bp4-hero-text {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 22.15%;
-  height              : 64.43%;
-  width               : 100.69%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+} */
+
+/* Code below this line. */
+.bp4-screen6 .bp4-hero-frame .bp4-hero-column {
+  background-color: #888;
+  margin: 0px auto 0px auto;
+  padding: 8px 16px 8px 16px;
+  min-width: 320px;
+  max-width: 502px;
   font-family         : "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
   font-size           : 14.0px;
   color               : rgba(20, 20, 20, 1.0);
-  text-align          : left;
   line-height         : 24.0px;
 }
-.bp4-screen6 .bp4-hero-frame .bp4-view5 .bp4-hero-headline {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
-  height              : 16.11%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0.35%;
+.bp4-screen6 .bp4-hero-frame .bp4-hero-headline {
+
   font-family         : "HelveticaNeueLTStd-MdCn", Helvetica, Arial, serif;
   font-size           : 20.0px;
   color               : rgba(20, 20, 20, 1.0);
-  text-align          : left;
   line-height         : 24.0px;
 }
 .bp4-screen6 .bp4-hero-frame .bp4-hero-photo {
-  background          : rgba(255, 255, 255, 0.0);
-  position            : relative;
-  pointer-events      : auto;
-  width               : 320px;
-  overflow            : hidden;
-}
-.bp4-screen6 .bp4-hero-frame .bp4-hero-photo-layout-container {
-  pointer-events      : none;
-  flex-direction      : column;
-  top                 : 0px;
-  align-items         : center;
+  vertical-align: bottom;
   width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  display             : flex;
-  left                : 0;
 }
+/* Code above this line. */
+
 .bp4-screen6 .bp4-navigation-header-mobile {
-  background          : rgba(255, 255, 255, 0.0);
-  top                 : 0px;
+  background          : rgba(20, 20, 20, 1.0);
   height              : 120px;
   width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-}
-.bp4-screen6 .bp4-navigation-header-mobile .bp4-navigation-background {
-  background          : rgba(20, 20, 20, 1.0);
-  top                 : 53.33%;
-  height              : 46.67%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  margin              : 0px 0px 0px 0px;
 }
 .bp4-screen6 .bp4-navigation-header-mobile .bp4-stack-view1 {
   /* Flexbox */
@@ -2888,56 +2808,56 @@ div {
 }
 @-webkit-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @-moz-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @-o-keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
 }
 @keyframes anima-reveal {
   0%
-   
+
   {
       opacity: 0;
     }
-  
-    
+
+
   100%
-   
+
   {
       opacity: 1;
     }
