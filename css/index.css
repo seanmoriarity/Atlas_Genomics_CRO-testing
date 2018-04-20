@@ -2236,7 +2236,7 @@ div {
 }
 .bp4-screen6 .bp4-partner-frame .bp4-partner-column {
   /* background-color: #888; */
-  margin: 0px auto 0px auto;
+  margin: 0px auto 64px auto;
   padding: 8px 16px 44px 16px;
   max-width: 502px;
   font-family: "HelveticaNeueLTStd-Roman", Helvetica, Arial, serif;
